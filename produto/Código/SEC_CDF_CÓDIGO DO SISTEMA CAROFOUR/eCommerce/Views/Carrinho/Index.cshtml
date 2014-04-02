@@ -1,0 +1,129 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section featured {
+    <div style="padding: 20px 40px 30px 40px; position:absolute; width:1100px; height:400px; background-color:white; margin-left:40px; margin-top:60px; -webkit-transition: all .2s ease-in-out; transition: all .2s ease-in-out; border-radius: 4px;">
+        
+        <div style="margin-left:850px;">
+            <span>Subtotal: R$ 16,99</span>
+        </div>
+
+        <br /> <hr />
+
+        <div>
+            <div class="float-left">
+                <a href="@Url.Action("Index","Carrinho")"><input type="button" id="btnLimparCarrinho" name="btnLimparCarrinho" value="Limpar Carrinho" /></a>
+            </div>
+
+            <div class="float-left">
+                <a href="@Url.Action("Index","ListaItens")"><input type="button" id="btnContinuarCompras" name="btnContinuarCompras" value="Continuar Compras" /></a>
+            </div>
+
+            <div class="float-left">
+                <a href="@Url.Action("FecharCompra","Carrinho")"><input type="button" id="btnFecharCompra" name="btnFecharCompra" value="Fechar Compras" /></a>
+            </div>
+        </div>      
+
+        <br /><br /><br /><br />
+
+        <div style="overflow:auto; width:850px; height:250px;">
+            <table style="padding: 5px 5px 5px 5px; width:800px">                
+                <tr style="background-color:gray; color:white; font-weight:bold;">
+                    <td style="text-align:center">&nbsp;</td>
+                    <td>Nome / Descrição</td>
+                    <td style="text-align:center;">Quantidade</td>
+                    <td style="text-align:center">Preço R$</td>
+                    <td>&nbsp;</td>                        
+                </tr>                               
+                <tr>
+                    <td style="text-align:center"><img src="~/icons/apple.png" style="width:55px; height:25px;" /></td>
+                    <td>Produto 1 - Descrição</td>
+                    <td style="text-align:center">1</td>
+                    <td style="text-align:center">10,30</td>
+                    <td><a href="#">Atualizar</a><a href="3">Remover</a></td>
+                </tr>
+                <tr>
+                    <td style="text-align:center"><img src="~/icons/cake.png" style="width:55px; height:25px;" /></td>
+                    <td>Produto 2 - Descrição</td>
+                    <td style="text-align:center">2</td>
+                    <td style="text-align:center">1,23</td>
+                    <td><a href="#">Atualizar</a><a href="3">Remover</a></td>
+                </tr>
+                <tr>
+                    <td style="text-align:center"><img src="~/icons/edit_clear.png" style="width:55px; height:25px;" /></td>
+                    <td>Produto 2 - Descrição</td>
+                    <td style="text-align:center">2</td>
+                    <td style="text-align:center">1,23</td>
+                    <td><a href="#">Atualizar</a><a href="3">Remover</a></td>
+                </tr>
+                <tr>
+                    <td style="text-align:center"><img src="~/icons/lettuce.png" style="width:55px; height:25px;" /></td>
+                    <td>Produto 3 - Descrição</td>
+                    <td style="text-align:center">3</td>
+                    <td style="text-align:center">2,23</td>
+                    <td><a href="#">Atualizar</a><a href="3">Remover</a></td>
+                </tr>
+                <tr>
+                    <td style="text-align:center"><img src="~/icons/apple.png" style="width:55px; height:25px;" /></td>
+                    <td>Produto 4 - Descrição</td>
+                    <td style="text-align:center">4</td>
+                    <td style="text-align:center">3,23</td>
+                    <td><a href="#">Atualizar</a><a href="3">Remover</a></td>
+                </tr>
+                <tr>
+                    <td style="text-align:center"><img src="~/icons/cake.png" style="width:55px; height:25px;" /></td>
+                    <td>Produto 4 - Descrição</td>
+                    <td style="text-align:center">5</td>
+                    <td style="text-align:center">3,23</td>
+                    <td><a href="#">Atualizar</a><a href="3">Remover</a></td>
+                </tr>
+                <tr>
+                    <td style="text-align:center"><img src="~/icons/edit_clear.png" style="width:55px; height:25px;" /></td>
+                    <td>Produto 3 - Descrição</td>
+                    <td style="text-align:center">6</td>
+                    <td style="text-align:center">2,23</td>
+                    <td><a href="#">Atualizar</a><a href="3">Remover</a></td>
+                </tr>   
+                <tr>
+                    <td style="text-align:center"><img src="~/icons/lettuce.png" style="width:55px; height:25px;" /></td>
+                    <td>Produto 4 - Descrição</td>
+                    <td style="text-align:center">7</td>
+                    <td style="text-align:center">3,23</td>
+                    <td><a href="#">Atualizar</a><a href="3">Remover</a></td>
+                </tr>      
+                <tr>
+                    <td style="text-align:center"><img src="~/icons/apple.png" style="width:55px; height:25px;" /></td>
+                    <td>Produto 1 - Descrição</td>
+                    <td style="text-align:center">8</td>
+                    <td style="text-align:center">10,30</td>
+                    <td><a href="#">Atualizar</a><a href="3">Remover</a></td>
+                </tr>       
+                <tr>
+                    <td style="text-align:center"><img src="~/icons/cake.png" style="width:55px; height:25px;" /></td>
+                    <td>Produto 2 - Descrição</td>
+                    <td style="text-align:center">2</td>
+                    <td style="text-align:center">1,23</td>
+                    <td><a href="#">Atualizar</a><a href="3">Remover</a></td>
+                </tr>
+                <tr>
+                    <td style="text-align:center"><img src="~/icons/apple.png" style="width:55px; height:25px;" /></td>
+                    <td>Produto 1 - Descrição</td>
+                    <td style="text-align:center">1</td>
+                    <td style="text-align:center">10,30</td>
+                    <td><a href="#">Atualizar</a><a href="3">Remover</a></td>
+                </tr>
+                <tr>
+                    <td style="text-align:center"><img src="~/icons/cake.png" style="width:55px; height:25px;" /></td>
+                    <td>Produto 2 - Descrição</td>
+                    <td style="text-align:center">2</td>
+                    <td style="text-align:center">1,23</td>
+                    <td><a href="#">Atualizar</a><a href="3">Remover</a></td>
+                </tr>
+            </table>
+        </div>
+ 
+
+    </div>
+}

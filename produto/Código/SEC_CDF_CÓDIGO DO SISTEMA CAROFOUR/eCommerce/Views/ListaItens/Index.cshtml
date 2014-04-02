@@ -1,0 +1,129 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_layout.cshtml";
+}
+
+@section featured {
+    <div style="padding: 20px 40px 30px 40px; position:absolute; width:110px; height:400px; background-color:white; margin-left:40px; margin-top:60px; -webkit-transition: all .2s ease-in-out; transition: all .2s ease-in-out; border-radius: 4px;">
+        <h4 style="color:gray">Categorias</h4>
+
+        <br /> <hr />
+
+        <table>
+            <tr>
+                <td>
+                    <div style="background-color:gray; -webkit-transition: all .2s ease-in-out; transition: all .2s ease-in-out; border-radius: 4px;">        
+                        <a href="@Url.Action("Index","Carrinho")"><img src="~/icons/apple.png" style="width:100px; height:70px;" /></a> 
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div style="background-color:gray; -webkit-transition: all .2s ease-in-out; transition: all .2s ease-in-out; border-radius: 4px;">        
+                        <a href="@Url.Action("Index","Carrinho")"><img src="~/icons/cake.png" style="width:100px; height:70px;" /></a> 
+                    </div>
+                </td>
+            </tr>            
+
+            <tr>
+                <td>
+                    <div style="background-color:gray; -webkit-transition: all .2s ease-in-out; transition: all .2s ease-in-out; border-radius: 4px;">        
+                        <a href="@Url.Action("Index","Carrinho")"><img src="~/icons/edit_clear.png" style="width:100px; height:70px;" /></a> 
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div style="background-color:gray; -webkit-transition: all .2s ease-in-out; transition: all .2s ease-in-out; border-radius: 4px;">        
+                        <a href="@Url.Action("Index","Carrinho")"><img src="~/icons/lettuce.png" style="width:100px; height:70px;" /></a> 
+                    </div>
+                </td>
+            </tr>            
+        </table>
+               
+    </div>
+
+    <div style="padding: 20px 40px 30px 40px; position:absolute; width:900px; height:400px; background-color:white; margin-left:270px; margin-top:60px; -webkit-transition: all .2s ease-in-out; transition: all .2s ease-in-out; border-radius: 4px;">
+        <div>
+            <div class="float-left">
+                <a href="@Url.Action("Index","Carrinho")"><input type="button" id="btnVerCarrinho" name="btnVerCarrinho" value="Ver Carrinho" /></a>
+            </div>
+
+            <div class="float-left">
+                <input type="button" id="btnComprarProdutos" name="btnComprarProdutos" value="Comprar Produtos" />
+            </div>
+
+            <div class="float-left">
+                <a href="@Url.Action("FecharCompra","Carrinho")"><input type="button" id="btnFecharCompra" name="btnFecharCompra" value="Fechar Compras" /></a>
+            </div>
+        </div>        
+
+        <br /><br /><br /><br />
+
+        <div>
+            <table style="padding: 5px 5px 5px 5px; width:600px;">                
+                <tr style="background-color:gray; color:white; font-weight:bold;">
+                    <td style="text-align:center"><input type="checkbox" /></td>
+                    <td>Nome / Descrição</td>
+                    <td>Preço R$</td>
+                    <td>&nbsp;</td>                        
+                </tr>                               
+                <tr>
+                    <td style="text-align:center"><input type="checkbox" /></td>
+                    <td>Produto 1 - Descrição</td>
+                    <td>10,30</td>
+                    <td><a href="#">Comprar</a></td>
+                </tr>
+                <tr>
+                    <td style="text-align:center"><input type="checkbox" /></td>
+                    <td>Produto 2 - Descrição</td>
+                    <td>1,23</td>
+                    <td><a href="#">Comprar</a></td>
+                </tr>
+                <tr>
+                    <td style="text-align:center"><input type="checkbox" /></td>
+                    <td>Produto 2 - Descrição</td>
+                    <td>1,23</td>
+                    <td><a href="#">Comprar</a></td>
+                </tr>
+                <tr>
+                    <td style="text-align:center"><input type="checkbox" /></td>
+                    <td>Produto 3 - Descrição</td>
+                    <td>2,23</td>
+                    <td><a href="#">Comprar</a></td>
+                </tr>
+                <tr>
+                    <td style="text-align:center"><input type="checkbox" /></td>
+                    <td>Produto 4 - Descrição</td>
+                    <td>3,23</td>
+                    <td><a href="#">Comprar</a></td>
+                </tr>
+                <tr>
+                    <td style="text-align:center"><input type="checkbox" /></td>
+                    <td>Produto 4 - Descrição</td>
+                    <td>3,23</td>
+                    <td><a href="#">Comprar</a></td>
+                </tr>
+                <tr>
+                    <td style="text-align:center"><input type="checkbox" /></td>
+                    <td>Produto 3 - Descrição</td>
+                    <td>2,23</td>
+                    <td><a href="#">Comprar</a></td>
+                </tr>   
+                <tr>
+                    <td style="text-align:center"><input type="checkbox" /></td>
+                    <td>Produto 4 - Descrição</td>
+                    <td>3,23</td>
+                    <td><a href="#">Comprar</a></td>
+                </tr>      
+                <tr>
+                    <td style="text-align:center"><input type="checkbox" /></td>
+                    <td>Produto 1 - Descrição</td>
+                    <td>10,30</td>
+                    <td><a href="#">Comprar</a></td>
+                </tr>       
+            </table>
+        </div>
+    </div>
+}
