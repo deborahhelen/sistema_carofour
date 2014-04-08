@@ -83,3 +83,343 @@ c:\users\juninho\documents\visual studio 2012\Projects\eCommerce\eCommerce\bin\z
 c:\users\juninho\documents\visual studio 2012\Projects\eCommerce\eCommerce\obj\Debug\eCommerce.csprojResolveAssemblyReference.cache
 c:\users\juninho\documents\visual studio 2012\Projects\eCommerce\eCommerce\obj\Debug\eCommerce.dll
 c:\users\juninho\documents\visual studio 2012\Projects\eCommerce\eCommerce\obj\Debug\eCommerce.pdb
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\eCommerce.dll
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\eCommerce.pdb
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\Antlr3.Runtime.dll
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.Core.dll
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\EntityFramework.dll
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\Microsoft.Data.Edm.dll
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\Microsoft.Data.OData.dll
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\Newtonsoft.Json.dll
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\System.Net.Http.Formatting.dll
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\System.Spatial.dll
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\System.Web.Helpers.dll
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\System.Web.Http.dll
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\System.Web.Http.OData.dll
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\System.Web.Http.WebHost.dll
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\System.Web.Mvc.dll
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\System.Web.Optimization.dll
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\System.Web.Razor.dll
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\System.Web.WebPages.dll
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\System.Web.WebPages.Razor.dll
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\WebGrease.dll
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\WebMatrix.Data.dll
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\WebMatrix.WebData.dll
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\EntityFramework.xml
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\Newtonsoft.Json.xml
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\System.Net.Http.Formatting.xml
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\System.Web.Helpers.xml
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\System.Web.Http.xml
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\System.Web.Http.WebHost.xml
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\System.Web.Mvc.xml
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\System.Web.Razor.xml
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\System.Web.WebPages.xml
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\System.Web.WebPages.Razor.xml
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\WebMatrix.Data.xml
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\WebMatrix.WebData.xml
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.Core.xml
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\System.Web.Http.OData.xml
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\Microsoft.Data.Edm.xml
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\Microsoft.Data.OData.xml
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\System.Spatial.xml
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\de\System.Spatial.resources.dll
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\es\System.Spatial.resources.dll
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\fr\System.Spatial.resources.dll
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\it\System.Spatial.resources.dll
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\ja\System.Spatial.resources.dll
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\ko\System.Spatial.resources.dll
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\ru\System.Spatial.resources.dll
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\obj\Debug\eCommerce.csprojResolveAssemblyReference.cache
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\obj\Debug\eCommerce.dll
+C:\Users\Moane\Downloads\eCommerce\eCommerce\eCommerce\obj\Debug\eCommerce.pdb
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\eCommerce.dll
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\eCommerce.pdb
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\Antlr3.Runtime.dll
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.Core.dll
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\EntityFramework.dll
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\Microsoft.Data.Edm.dll
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\Microsoft.Data.OData.dll
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\Newtonsoft.Json.dll
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Net.Http.Formatting.dll
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Spatial.dll
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Web.Helpers.dll
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Web.Http.dll
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Web.Http.OData.dll
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Web.Http.WebHost.dll
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Web.Mvc.dll
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Web.Optimization.dll
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Web.Razor.dll
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Web.WebPages.dll
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Web.WebPages.Razor.dll
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\WebGrease.dll
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\WebMatrix.Data.dll
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\WebMatrix.WebData.dll
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\EntityFramework.xml
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\Newtonsoft.Json.xml
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Net.Http.Formatting.xml
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Web.Helpers.xml
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Web.Http.xml
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Web.Http.WebHost.xml
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Web.Mvc.xml
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Web.Razor.xml
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Web.WebPages.xml
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Web.WebPages.Razor.xml
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\WebMatrix.Data.xml
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\WebMatrix.WebData.xml
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.Core.xml
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Web.Http.OData.xml
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\Microsoft.Data.Edm.xml
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\Microsoft.Data.OData.xml
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Spatial.xml
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\de\System.Spatial.resources.dll
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\es\System.Spatial.resources.dll
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\fr\System.Spatial.resources.dll
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\it\System.Spatial.resources.dll
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\ja\System.Spatial.resources.dll
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\ko\System.Spatial.resources.dll
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\ru\System.Spatial.resources.dll
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\obj\Debug\eCommerce.dll
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\obj\Debug\eCommerce.pdb
+C:\Users\Moane\Desktop\eCommerce\eCommerce\eCommerce\obj\Debug\eCommerce.csprojResolveAssemblyReference.cache
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\obj\Debug\eCommerce.csprojResolveAssemblyReference.cache
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\obj\Debug\eCommerce.dll
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\obj\Debug\eCommerce.pdb
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\eCommerce.dll
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\eCommerce.pdb
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\Antlr3.Runtime.dll
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.Core.dll
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\EntityFramework.dll
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\Microsoft.Data.Edm.dll
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\Microsoft.Data.OData.dll
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\Newtonsoft.Json.dll
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\System.Net.Http.Formatting.dll
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\System.Spatial.dll
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\System.Web.Helpers.dll
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\System.Web.Http.dll
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\System.Web.Http.OData.dll
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\System.Web.Http.WebHost.dll
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\System.Web.Mvc.dll
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\System.Web.Optimization.dll
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\System.Web.Razor.dll
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\System.Web.WebPages.dll
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\System.Web.WebPages.Razor.dll
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\WebGrease.dll
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\WebMatrix.Data.dll
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\WebMatrix.WebData.dll
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\EntityFramework.xml
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\Newtonsoft.Json.xml
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\System.Net.Http.Formatting.xml
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\System.Web.Helpers.xml
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\System.Web.Http.xml
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\System.Web.Http.WebHost.xml
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\System.Web.Mvc.xml
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\System.Web.Razor.xml
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\System.Web.WebPages.xml
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\System.Web.WebPages.Razor.xml
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\WebMatrix.Data.xml
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\WebMatrix.WebData.xml
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.Core.xml
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\System.Web.Http.OData.xml
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\Microsoft.Data.Edm.xml
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\Microsoft.Data.OData.xml
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\System.Spatial.xml
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\de\System.Spatial.resources.dll
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\es\System.Spatial.resources.dll
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\fr\System.Spatial.resources.dll
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\it\System.Spatial.resources.dll
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\ja\System.Spatial.resources.dll
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\ko\System.Spatial.resources.dll
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\ru\System.Spatial.resources.dll
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\eCommerce.dll
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\eCommerce.pdb
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\Antlr3.Runtime.dll
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.Core.dll
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\EntityFramework.dll
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\Microsoft.Data.Edm.dll
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\Microsoft.Data.OData.dll
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\Newtonsoft.Json.dll
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Net.Http.Formatting.dll
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Spatial.dll
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Web.Helpers.dll
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Web.Http.dll
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Web.Http.OData.dll
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Web.Http.WebHost.dll
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Web.Mvc.dll
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Web.Optimization.dll
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Web.Razor.dll
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Web.WebPages.dll
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Web.WebPages.Razor.dll
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\WebGrease.dll
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\WebMatrix.Data.dll
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\WebMatrix.WebData.dll
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\EntityFramework.xml
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\Newtonsoft.Json.xml
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Net.Http.Formatting.xml
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Web.Helpers.xml
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Web.Http.xml
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Web.Http.WebHost.xml
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Web.Mvc.xml
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Web.Razor.xml
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Web.WebPages.xml
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Web.WebPages.Razor.xml
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\WebMatrix.Data.xml
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\WebMatrix.WebData.xml
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.Core.xml
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Web.Http.OData.xml
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\Microsoft.Data.Edm.xml
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\Microsoft.Data.OData.xml
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Spatial.xml
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\de\System.Spatial.resources.dll
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\es\System.Spatial.resources.dll
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\fr\System.Spatial.resources.dll
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\it\System.Spatial.resources.dll
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\ja\System.Spatial.resources.dll
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\ko\System.Spatial.resources.dll
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\ru\System.Spatial.resources.dll
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\obj\Debug\eCommerce.csprojResolveAssemblyReference.cache
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\obj\Debug\eCommerce.dll
+C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\obj\Debug\eCommerce.pdb

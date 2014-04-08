@@ -1,11 +1,12 @@
 ﻿@{
-    ViewBag.Title = "Home Page";
+    ViewBag.Title = "Início";
 }
 @section featured {
-    <div style="padding: 20px 40px 30px 40px; position:absolute; width:500px; height:330px; background-color:white; margin-left:40px; margin-top:60px; -webkit-transition: all .2s ease-in-out; transition: all .2s ease-in-out; border-radius: 4px;">
-        <h4 style="color:gray">Somos o Grupo Carrefour, pioneiros no varejo brasileiro.</h4>
+    <div class="divApresentacao">
+        <h4 style="color: gray">Somos o Grupo Carofour, pioneiros no varejo brasileiro.</h4>
 
-        <br /> <hr />
+        <br />
+        <hr />
 
         <p>Desde de 1975 no Brasil, reunimos uma equipe com mais de 70.000 colaboradores que representam a diversidade deste país. Junto com os nossos fornecedores e parceiros, estamos comprometidos em satisfazer e encantar os consumidores todos os dias, construindo a nossa história com a sociedade.</p>
 
@@ -16,29 +17,38 @@
         <p>Desde de 1975 no Brasil, reunimos uma equipe com mais de 70.000 colaboradores que representam a diversidade deste país. Junto com os nossos fornecedores e parceiros, estamos comprometidos em satisfazer e encantar os consumidores todos os dias, construindo a nossa história com a sociedade.</p>
     </div>
 
-    <div style="padding: 20px 40px 30px 40px; position:absolute; width:500px; height:330px; background-color:white; margin-left:650px; margin-top:60px; -webkit-transition: all .2s ease-in-out; transition: all .2s ease-in-out; border-radius: 4px;">
-        
-        <h4 style="color:gray">Categorias</h4>
+    <div class="divCategorias">
 
-        <br /> <hr />
+        <h4 style="color: gray">Categorias</h4>
 
-        <div style="padding: 20px 40px 30px 40px; position:absolute; width:100px; height:60px; background-color:gray; -webkit-transition: all .2s ease-in-out; transition: all .2s ease-in-out; border-radius: 4px;">        
-            <a href="@Url.Action("Index","ListaItens")"><img src="~/icons/apple.png" style="width:90px; height:70px;" /></a> 
+        <br />
+        <hr />
+
+        <div class="divListaItensGeral">
+            <a href="@Url.Action("Index", "ListaItens")">
+                <img src="~/icons/apple.png" class="imgCategorias" title="Hortifrutigranjeiros"/></a>
         </div>
 
-        <div style="padding: 20px 40px 30px 40px; position:absolute; width:100px; height:60px; background-color:gray; margin-left:320px; -webkit-transition: all .2s ease-in-out; transition: all .2s ease-in-out; border-radius: 4px;">        
-            <a href="@Url.Action("Index","ListaItens")"><img src="~/icons/cake.png" style="width:90px; height:70px;" /></a>
+        <div id="divPadaria" class="divListaItensGeral">
+            <a href="@Url.Action("Index", "ListaItens")">
+                <img src="~/icons/cake.png" class="imgCategorias" title="Padaria" /></a>
         </div>
 
-        <div style="padding: 20px 40px 30px 40px; position:absolute; width:100px; height:60px; background-color:gray; margin-top:120px; -webkit-transition: all .2s ease-in-out; transition: all .2s ease-in-out; border-radius: 4px;">        
-            <a href="@Url.Action("Index","ListaItens")"><img src="~/icons/edit_clear.png" style="width:90px; height:70px;" /></a>
+        <div id="divLaticinios" class="divListaItensGeral">
+            <a href="@Url.Action("Index", "ListaItens")">
+                <img src="~/icons/cheese-icon.png" class="imgCategorias" title="Laticínios" />
+                
+            </a>
+            
+                 
         </div>
 
-        <div style="padding: 20px 40px 30px 40px; position:absolute; width:100px; height:60px; background-color:gray;  margin-top:120px; margin-left:320px; -webkit-transition: all .2s ease-in-out; transition: all .2s ease-in-out; border-radius: 4px;">        
-            <a href="@Url.Action("Index","ListaItens")"><img src="~/icons/lettuce.png" style="width:90px; height:70px;" /></a>
+        <div id="divCarnes" class="divListaItensGeral">
+            <a href="@Url.Action("Index", "ListaItens")">
+                <img src="~/icons/lettuce.png" class="imgCategorias" title="carnes"/></a>
         </div>
-    
+
     </div>
-    
+
 }
 

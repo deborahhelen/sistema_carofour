@@ -4,79 +4,77 @@
 }
 
 @section featured {
-    <div style="padding: 20px 40px 30px 40px; position:absolute; width:450px; height:400px; background-color:white; margin-left:40px; margin-top:60px; -webkit-transition: all .2s ease-in-out; transition: all .2s ease-in-out; border-radius: 4px;">
-        
+    <div class="divDadosClienteCompra">
+
         <table>
-            <tr style="background-color:gray; color:white">
-                <td style="padding:5px;" colspan="2">Dados Pessoais</td>
+            <tr style="background-color: gray; color: white">
+                <td style="padding: 5px;" colspan="2">Dados Pessoais</td>
             </tr>
             <tr>
-                <td style="padding:5px;">Nome:</td>
-                <td><input type="text" style="height: 10px;" /></td>
+                <td style="padding: 5px;">Nome:*</td>
+                <td>
+                    <input type="text" style="height: 10px;" id="txtNome" name="txtNome" /></td>
             </tr>
             <tr>
-                <td style="padding:5px;">Data Nascimento:</td>
-                <td><input type="text" style="height: 10px;" /></td>
+                <td style="padding: 5px;">Data Nascimento:*</td>
+                <td>
+                    <input type="text" style="height: 10px;" id="txtDataNascimento" /></td>
             </tr>
             <tr>
-                <td style="padding:5px;">Sexo:</td>
+                <td style="padding: 5px;">Sexo:*</td>
                 <td>
                     <select>
-                        <option>
-                            Feminino
+                        <option>Feminino
                         </option>
-                        <option>
-                            Masculino
+                        <option>Masculino
                         </option>
                     </select>
                 </td>
             </tr>
             <tr>
-                <td style="padding:5px;">E-mail:</td>
-                <td><input type="text" style="height: 10px;" /></td>
-            </tr>            
-            <tr>
-                <td style="padding:5px;">Endereço</td>
-                <td><input type="text" style="height: 10px;" /></td>
+                <td style="padding: 5px;">E-mail:*</td>
+                <td>
+                    <input type="text" style="height: 10px;" /></td>
             </tr>
             <tr>
-                <td style="padding:5px;">Telefone</td>
-                <td><input type="text" style="height: 10px;" /></td>
-            </tr>                        
-            <tr style="background-color:gray; color:white">
-                <td style="padding:5px;" colspan="2">
-                    Login
-                </td>
+                <td style="padding: 5px;">Endereço*</td>
+                <td>
+                    <input type="text" style="height: 10px;" /></td>
             </tr>
             <tr>
-                <td style="padding:5px;">Senha</td>
-                <td><input type="text" style="height: 10px;" /></td>
+                <td style="padding: 5px;">Telefone*</td>
+                <td>
+                    <input type="text" style="height: 10px;" /></td>
             </tr>
             <tr>
-                <td style="padding:5px;">Repita a Senha</td>
-                <td><input type="text" style="height: 10px;" /></td>
+              @*  <td colspan="2" style="text-align:right"><a href="@Url.Action("DadosPedido","Carrinho")"></a></td>*@
+                <td>
+                    <input type="button" value="Enviar" onclick="return validarFormularioCompra();"></td>
             </tr>
-            <tr>
-                <td colspan="2" style="text-align:right"><a href="@Url.Action("DadosPedido","Carrinho")"><input type="button" value="Enviar"></a></td>                
-            </tr>
+             @*<tr>
+                <td colspan="2" style="text-align:right"><a href="@Url.Action("DadosPedido","Carrinho")"><input type="button" value="Enviar2"></a></td>                
+            </tr>*@
+            
+             
         </table>
+        *Campos Obrigatórios
 
     </div>
 
-    <div style="padding: 20px 40px 30px 40px; position:absolute; width:450px; height:140px; background-color:white; margin-left:600px; margin-top:60px; -webkit-transition: all .2s ease-in-out; transition: all .2s ease-in-out; border-radius: 4px;">                
-
-        As compras devem ser entregue com no prazo máximo de N dias e afinal de contas, voce <br /> não espera
-        receber isso na sua casa mesmo, espera?
-        Uma vez entregue, deve ser assinado o canhoto do carteiro.
+    <div class="divMensagemAgradecimento">
+        As compras devem ser entregue com no prazo máximo de 8 horas a partir da efetivação do pagamento.
+        <br />
+       É um compromisso do Carofour entregar seus produtos de forma rápida e eficiente.
+       
         <br />
         Parabéns pela compra!
 
     </div>
 
-    <div style="padding: 20px 40px 30px 40px; position:absolute; width:450px; height:140px; background-color:white; margin-left:600px; margin-top:320px; -webkit-transition: all .2s ease-in-out; transition: all .2s ease-in-out; border-radius: 4px;">
-        As compras devem ser entregue com no prazo máximo de N dias e afinal de contas, voce <br /> não espera
-        receber isso na sua casa mesmo, espera?
-        Uma vez entregue, deve ser assinado o canhoto do carteiro.
+    <div id="divMensagem" class="divMensagemAgradecimento">
+       As compras devem ser entregue com no prazo máximo de 8 horas a partir da efetivação do pagamento.
+        <br />
+        É um compromisso do Carofour entregar seus produtos de forma rápida e eficiente.
         <br />
         Parabéns pela compra!
     </div>
