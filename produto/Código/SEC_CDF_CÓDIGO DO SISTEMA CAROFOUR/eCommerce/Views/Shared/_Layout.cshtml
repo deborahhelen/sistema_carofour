@@ -2,21 +2,25 @@
 <html lang="pt-br">
 <head>
     <meta charset="utf-8" />
-    <title>@ViewBag.Title - Carofour</title>   
+    <title>@ViewBag.Title - Carofour</title>
     <meta name="viewport" content="width=device-width" />
     @Styles.Render("~/Content/Site.css")
     @Scripts.Render("~/Scripts/FecharCompra.js")
-   
+
 </head>
 <body>
     <header>
         <div class="content-wrapper">
-            <div class="float-left">              
-                   <a href="@Url.Action("Index","Home")"> <img src="~/Images/logomarca.png" style="width: 200px; height: 60px" title="Carofour - Produtos e alimentos orgânicos"/></a>
+            <div class="float-left">
+                <a href="@Url.Action("Index", "Home")">
+                    <img src="~/Images/logomarca.png" style="width: 200px; height: 60px" title="Carofour - Produtos e alimentos orgânicos" /></a>
             </div>
-            <div id="divTituloInicio" >
+            <div id="divTituloInicio">
                 <p class="site-title">Produtos e Alimentos orgânicos</p>
-            </div>         
+            </div>
+            <div class="float-right">
+                <a href="#" title="Traduzir para português">Português</a>/<a href="#" title="Traduzir para espanhol">Espanhol</a>
+            </div>
         </div>
     </header>
     <div id="body">
@@ -24,8 +28,6 @@
         @RenderBody()
     </div>
 
-
-    @Scripts.Render("~/bundles/jquery")
     @RenderSection("scripts", required: false)
 </body>
 </html>

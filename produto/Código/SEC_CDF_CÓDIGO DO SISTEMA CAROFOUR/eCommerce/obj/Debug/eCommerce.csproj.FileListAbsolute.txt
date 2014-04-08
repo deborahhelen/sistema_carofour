@@ -338,88 +338,147 @@ C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eComm
 C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\ru\System.Spatial.resources.dll
 C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\zh-Hans\System.Spatial.resources.dll
 C:\Users\Juninho\Documents\Visual Studio 2012\Projects\eCommerce\eCommerce\eCommerce\bin\zh-Hant\System.Spatial.resources.dll
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\eCommerce.dll
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\eCommerce.pdb
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\Antlr3.Runtime.dll
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.AspNet.dll
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.Core.dll
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.OAuth.Consumer.dll
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.OAuth.dll
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.OpenId.dll
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\EntityFramework.dll
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\Microsoft.Data.Edm.dll
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\Microsoft.Data.OData.dll
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\Microsoft.Web.WebPages.OAuth.dll
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\Newtonsoft.Json.dll
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Net.Http.Formatting.dll
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Spatial.dll
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Web.Helpers.dll
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Web.Http.dll
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Web.Http.OData.dll
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Web.Http.WebHost.dll
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Web.Mvc.dll
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Web.Optimization.dll
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Web.Razor.dll
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Web.WebPages.Deployment.dll
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Web.WebPages.dll
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Web.WebPages.Razor.dll
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\WebGrease.dll
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\WebMatrix.Data.dll
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\WebMatrix.WebData.dll
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\EntityFramework.xml
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\Newtonsoft.Json.xml
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Net.Http.Formatting.xml
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Web.Helpers.xml
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Web.Http.xml
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Web.Http.WebHost.xml
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Web.Mvc.xml
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Web.Razor.xml
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Web.WebPages.xml
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Web.WebPages.Deployment.xml
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Web.WebPages.Razor.xml
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\WebMatrix.Data.xml
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\Microsoft.Web.WebPages.OAuth.xml
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\WebMatrix.WebData.xml
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.AspNet.xml
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.Core.xml
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.OAuth.Consumer.xml
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.OAuth.xml
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.OpenId.xml
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Web.Http.OData.xml
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\Microsoft.Data.Edm.xml
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\Microsoft.Data.OData.xml
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\System.Spatial.xml
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\de\Microsoft.Data.Edm.resources.dll
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\es\Microsoft.Data.Edm.resources.dll
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\fr\Microsoft.Data.Edm.resources.dll
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\it\Microsoft.Data.Edm.resources.dll
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\ja\Microsoft.Data.Edm.resources.dll
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\ko\Microsoft.Data.Edm.resources.dll
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\ru\Microsoft.Data.Edm.resources.dll
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\de\Microsoft.Data.OData.resources.dll
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\es\Microsoft.Data.OData.resources.dll
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\fr\Microsoft.Data.OData.resources.dll
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\it\Microsoft.Data.OData.resources.dll
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\ja\Microsoft.Data.OData.resources.dll
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\ko\Microsoft.Data.OData.resources.dll
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\ru\Microsoft.Data.OData.resources.dll
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\zh-Hans\Microsoft.Data.OData.resources.dll
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\zh-Hant\Microsoft.Data.OData.resources.dll
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\de\System.Spatial.resources.dll
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\es\System.Spatial.resources.dll
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\fr\System.Spatial.resources.dll
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\it\System.Spatial.resources.dll
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\ja\System.Spatial.resources.dll
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\ko\System.Spatial.resources.dll
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\ru\System.Spatial.resources.dll
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\zh-Hans\System.Spatial.resources.dll
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\bin\zh-Hant\System.Spatial.resources.dll
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\obj\Debug\eCommerce.csprojResolveAssemblyReference.cache
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\obj\Debug\eCommerce.dll
-C:\Users\Lucas\Desktop\eCommerce\eCommerce\eCommerce\obj\Debug\eCommerce.pdb
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\eCommerce.dll
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\eCommerce.pdb
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\Newtonsoft.Json.dll
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\System.Net.Http.Formatting.dll
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\System.Web.Helpers.dll
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\System.Web.Http.dll
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\System.Web.Http.OData.dll
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\System.Web.Http.WebHost.dll
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\System.Web.Mvc.dll
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\System.Web.Optimization.dll
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\System.Web.Razor.dll
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\System.Web.WebPages.Deployment.dll
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\System.Web.WebPages.dll
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\System.Web.WebPages.Razor.dll
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\WebMatrix.Data.dll
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\WebMatrix.WebData.dll
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\EntityFramework.xml
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\Newtonsoft.Json.xml
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\System.Net.Http.Formatting.xml
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\System.Web.Helpers.xml
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\System.Web.Http.xml
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\System.Web.Http.WebHost.xml
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\System.Web.Mvc.xml
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\System.Web.Razor.xml
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\System.Web.WebPages.xml
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\System.Web.WebPages.Deployment.xml
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\System.Web.WebPages.Razor.xml
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\WebMatrix.Data.xml
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\WebMatrix.WebData.xml
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.Core.xml
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\System.Web.Http.OData.xml
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\Microsoft.Data.Edm.xml
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\Microsoft.Data.OData.xml
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\System.Spatial.xml
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\de\System.Spatial.resources.dll
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\es\System.Spatial.resources.dll
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\fr\System.Spatial.resources.dll
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\it\System.Spatial.resources.dll
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\ja\System.Spatial.resources.dll
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\ko\System.Spatial.resources.dll
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\ru\System.Spatial.resources.dll
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\obj\Debug\eCommerce.csprojResolveAssemblyReference.cache
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\obj\Debug\eCommerce.dll
+C:\Users\CN\Downloads\eCommerce\eCommerce\eCommerce\eCommerce\obj\Debug\eCommerce.pdb
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\eCommerce.dll
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\eCommerce.pdb
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\Newtonsoft.Json.dll
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\System.Net.Http.Formatting.dll
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\System.Web.Helpers.dll
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\System.Web.Http.dll
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\System.Web.Http.OData.dll
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\System.Web.Http.WebHost.dll
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\System.Web.Mvc.dll
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\System.Web.Optimization.dll
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\System.Web.Razor.dll
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\System.Web.WebPages.Deployment.dll
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\System.Web.WebPages.dll
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\System.Web.WebPages.Razor.dll
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\WebMatrix.Data.dll
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\WebMatrix.WebData.dll
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\EntityFramework.xml
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\Newtonsoft.Json.xml
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\System.Net.Http.Formatting.xml
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\System.Web.Helpers.xml
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\System.Web.Http.xml
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\System.Web.Http.WebHost.xml
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\System.Web.Mvc.xml
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\System.Web.Razor.xml
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\System.Web.WebPages.xml
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\System.Web.WebPages.Deployment.xml
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\System.Web.WebPages.Razor.xml
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\WebMatrix.Data.xml
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\WebMatrix.WebData.xml
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\DotNetOpenAuth.Core.xml
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\System.Web.Http.OData.xml
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\Microsoft.Data.Edm.xml
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\Microsoft.Data.OData.xml
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\System.Spatial.xml
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\de\System.Spatial.resources.dll
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\es\System.Spatial.resources.dll
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\fr\System.Spatial.resources.dll
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\it\System.Spatial.resources.dll
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\ja\System.Spatial.resources.dll
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\ko\System.Spatial.resources.dll
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\ru\System.Spatial.resources.dll
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\obj\Debug\eCommerce.csprojResolveAssemblyReference.cache
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\obj\Debug\eCommerce.dll
+C:\Users\CN\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\obj\Debug\eCommerce.pdb

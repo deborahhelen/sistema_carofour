@@ -5,14 +5,13 @@
         <title>@ViewBag.Title - Carofour</title>
        
         <meta name="viewport" content="width=device-width" />
-        @Styles.Render("~/Content/css")
-        @Scripts.Render("~/bundles/modernizr")
+        @Styles.Render("~/Content/css")     
     </head>
     <body>
         <header>
             <div class="content-wrapper">
                 <div class="float-left">
-                    <p class="site-title"><img src="~/Images/carrefourIcon.png" /></p>
+                    <p class="site-title"><img src="~/Images/logomarca.png" /></p>
                 </div>
 
                 <div class="float-left">
@@ -22,9 +21,7 @@
                 <div class="float-right">                 
                     <nav>
                         <ul id="menu">
-                            <li>@Html.ActionLink("Início", "Index", "Home")</li>
-                            <li>@Html.ActionLink("About", "About", "Home")</li>
-                            <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                            <li>@Html.ActionLink("Início", "Index", "Home")</li>                                                   
                         </ul>
                     </nav>
                 </div>
@@ -34,9 +31,7 @@
             @RenderSection("featured", required: false)            
             @RenderBody()       
         </div>
-        
-
-        @Scripts.Render("~/bundles/jquery")
+       
         @RenderSection("scripts", required: false)
     </body>
 </html>
