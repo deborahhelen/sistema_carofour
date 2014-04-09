@@ -13,8 +13,10 @@
         strMsg += 'Informe o telefone de contato\n';
     if (strMsg != "")
         alert(strMsg);
-    else
+    else {
+        document.location.href = 'DadosPedido';//Redirecionar para a tela com os dados do pedido
         alert('Pedido enviado com sucesso');
+    }
 
     return false;
 }
@@ -114,7 +116,7 @@ function filtraNumeros(campo) {
 }
 // recupera o evento do form
 function getEvent(evt) {
-    if (!evt) evt = window.event; //IE
+    if (!evt) evt = window.event;
     return evt;
 }
 //Recupera o código da tecla que foi pressionado

@@ -177,10 +177,9 @@ footer {
 	background-color: #fff;
 }
 
-.featured p 
-{
-	font-size: 1.1em;
-}
+	.featured p {
+		font-size: 1.1em;
+	}
 
 /* features */
 section.feature {
@@ -275,6 +274,16 @@ tr.pager td {
 	padding: 0 0.25em 0 0;
 }
 
+#listaItens {
+	padding: 20px 40px 30px 40px;
+	position: absolute;
+	width: 110px;
+	height: 400px;
+	background-color: white;
+	margin-left: 40px;
+	margin-top: 60px;
+	border-radius: 4px;
+}
 
 .divCategorias {
 	/*Categorias tela inicial*/
@@ -399,4 +408,58 @@ tr.pager td {
 
 #divMensagem {
 	margin-top: 320px;
+}
+
+.cabecalhoFecharCompra {
+	background-color: gray;
+	color: white;
+}
+
+.celulaFecharCompra {
+	padding: 5px;
+}
+
+#divSubtotal {
+	margin-left: 850px;
+}
+
+#divTabelaProdutos {
+	overflow: auto;
+	width: 850px;
+	height: 250px;
+}
+
+#divProdutos {
+	padding: 5px 5px 5px 5px;
+	width: 600px;
+}
+
+#divProdutosCarrinho {
+	padding: 5px 5px 5px 5px;
+	width: 800px;
+}
+
+.imgItensCarrinho {
+	width: 55px;
+	height: 25px;
+}
+
+.divTituloCategoria {
+	color: gray;
+}
+
+.divOpcoes {
+	padding: 20px 40px 30px 40px;
+	position: absolute;
+	width: 900px;
+	height: 400px;
+	background-color: white;
+	margin-left: 270px;
+	margin-top: 60px;
+	border-radius: 4px;
+}
+
+.divBotoesCategoria {
+	width: 100px;
+	height: 70px;
 }

@@ -4,8 +4,8 @@
 }
 
 @section featured {
-    <div style="padding: 20px 40px 30px 40px; position:absolute; width:110px; height:400px; background-color:white; margin-left:40px; margin-top:60px; -webkit-transition: all .2s ease-in-out; transition: all .2s ease-in-out; border-radius: 4px;">
-        <h4 style="color:gray">Categorias</h4>
+    <div id="listaItens">
+        <h4 class="divTituloCategoria">Categorias</h4>
 
         <br /> <hr />
 
@@ -14,7 +14,7 @@
                 <td>
                     <div class="divListaCategorias">        
                         <a href="@Url.Action("Index","ListaItens")">
-                            <img src="~/icons/apple.png" style="width:100px; height:70px;" title="Hortifrutigranjeiros"/>
+                            <img src="~/icons/apple.png" class="divBotoesCategoria" title="Hortifrutigranjeiros"/>
                           
                         </a> 
                     </div>
@@ -24,7 +24,7 @@
             <tr>
                 <td>
                     <div class="divListaCategorias">        
-                        <a href="@Url.Action("Index","ListaItens")"><img src="~/icons/cake.png" style="width:100px; height:70px;" title="Padaria"/></a> 
+                        <a href="@Url.Action("Index","ListaItens")"><img src="~/icons/cake.png" class="divBotoesCategoria" title="Padaria"/></a> 
                     </div>
                 </td>
             </tr>            
@@ -32,14 +32,14 @@
             <tr>
                 <td>
                     <div class="divListaCategorias">        
-                        <a href="@Url.Action("Index","ListaItens")"><img src="~/icons/cheese-icon.png" style="width:100px; height:70px;" title="Laticínios"/></a> 
+                        <a href="@Url.Action("Index","ListaItens")"><img src="~/icons/cheese-icon.png" class="divBotoesCategoria" title="Laticínios"/></a> 
                     </div>
                 </td>
             </tr>
             <tr>
                 <td>
                     <div class="divListaCategorias">        
-                        <a href="@Url.Action("Index","ListaItens")"><img src="~/icons/steak.png" style="width:100px; height:80px;" title="Carnes" /></a> 
+                        <a href="@Url.Action("Index","ListaItens")"><img src="~/icons/steak.png" class="divBotoesCategoria" title="Carnes" /></a> 
                     </div>
                 </td>
             </tr>            
@@ -47,7 +47,7 @@
                
     </div>
 
-    <div style="padding: 20px 40px 30px 40px; position:absolute; width:900px; height:400px; background-color:white; margin-left:270px; margin-top:60px; -webkit-transition: all .2s ease-in-out; transition: all .2s ease-in-out; border-radius: 4px;">
+    <div class="divOpcoes">
         <div>
             <div class="float-left">
                 <a href="@Url.Action("Index","Carrinho")"><input type="button" id="btnVerCarrinho" name="btnVerCarrinho" value="Ver Carrinho" /></a>
@@ -65,12 +65,12 @@
         <br /><br /><br /><br />
 
         <div>
-            <table style="padding: 5px 5px 5px 5px; width:600px;">                
+            <table id="divProdutos">                
                 <tr id="headerListaItens" class="headerListaItens">
                     <td class="columChkItensLista"><input type="checkbox" /></td>
                     <td>Nome / Descrição</td>
                     <td>Preço R$</td>
-                    <td>&nbsp;</td>                        
+                    <td></td>                        
                 </tr>                               
                 <tr>
                     <td class="columChkItensLista"><input type="checkbox" /></td>

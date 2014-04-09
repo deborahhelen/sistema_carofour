@@ -7,21 +7,21 @@
     <div class="divDadosClienteCompra">
 
         <table>
-            <tr style="background-color: gray; color: white">
-                <td style="padding: 5px;" colspan="2">Dados Pessoais</td>
+            <tr class="cabecalhoFecharCompra">
+                <td class="celulaFecharCompra" colspan="2">Dados Pessoais</td>
             </tr>
             <tr>
-                <td style="padding: 5px;">Nome:*</td>
+                <td class="celulaFecharCompra">Nome:*</td>
                 <td>
-                    <input type="text" style="height: 10px;" id="txtNome" name="txtNome" /></td>
+                    <input type="text" id="txtNome" name="txtNome" /></td>
             </tr>
             <tr>
-                <td style="padding: 5px;">Data Nascimento:*</td>
+                <td class="celulaFecharCompra">Data Nascimento:*</td>
                 <td>
-                    <input type="text" style="height: 10px;" id="txtDataNascimento" /></td>
+                    <input type="text" id="txtDataNascimento" /></td>
             </tr>
             <tr>
-                <td style="padding: 5px;">Sexo:*</td>
+                <td class="celulaFecharCompra">Sexo:*</td>
                 <td>
                     <select>
                         <option>Feminino
@@ -32,27 +32,25 @@
                 </td>
             </tr>
             <tr>
-                <td style="padding: 5px;">E-mail:*</td>
+                <td class="celulaFecharCompra">E-mail:*</td>
                 <td>
-                    <input type="text" style="height: 10px;" id="txtEmail"/></td>
+                    <input type="text" id="txtEmail"/></td>
             </tr>
             <tr>
-                <td style="padding: 5px;">Endereço*</td>
+                <td class="celulaFecharCompra">Endereço*</td>
                 <td>
-                    <input type="text" style="height: 10px;" id="txtEndereco"/></td>
+                    <input type="text"  id="txtEndereco"/></td>
             </tr>
             <tr>
-                <td style="padding: 5px;">Telefone*</td>
+                <td class="celulaFecharCompra">Telefone*</td>
                 <td>
-                    <input type="text" style="height: 10px;" id="txtTelefone"  OnKeyUp="return formataTelefone(this,event);"/></td>
+                    <input type="text" id="txtTelefone"  OnKeyUp="return formataTelefone(this,event);"/></td>
             </tr>
             <tr>             
                 <td>
                     <input type="button" value="Enviar" onclick="return validarFormularioCompra();"></td>
-            </tr>
-             @*<tr>
-                <td colspan="2" style="text-align:right"><a href="@Url.Action("DadosPedido","Carrinho")"><input type="button" value="Enviar2"></a></td>                
-            </tr>*@
+               
+            </tr>           
             
              
         </table>
