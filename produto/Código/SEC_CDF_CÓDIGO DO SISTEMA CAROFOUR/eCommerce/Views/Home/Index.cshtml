@@ -24,28 +24,28 @@
         <br />
         <hr />
 
-        <div class="divListaItensGeral">
-            <a href="@Url.Action("Index", "ListaItens")">
-                <img src="~/icons/apple.png" class="imgCategorias" title="Hortifrutigranjeiros"/></a>
-        </div>
+        <a href="@Url.Action("Index", "ListaItens", new { CodCategoria = 1 })">
+            <div class="divListaItensGeral">
+                <img src="~/icons/apple.png" class="imgCategorias" title="Hortifrutigranjeiros" />
+            </div>
+        </a>
+       <a href="@Url.Action("Index", "ListaItens", new { CodCategoria = 2 })">
+            <div id="divPadaria" class="divListaItensGeral">
 
-        <div id="divPadaria" class="divListaItensGeral">
-            <a href="@Url.Action("Index", "ListaItens")">
-                <img src="~/icons/cake.png" class="imgCategorias" title="Padaria" /></a>
-        </div>
-
-        <div id="divLaticinios" class="divListaItensGeral">
-            <a href="@Url.Action("Index", "ListaItens")">
+                <img src="~/icons/cake.png" class="imgCategorias" title="Padaria" />
+            </div>
+        </a>
+        <a href="@Url.Action("Index", "ListaItens", new { CodCategoria = 3 })">
+            <div id="divLaticinios" class="divListaItensGeral">
                 <img src="~/icons/cheese-icon.png" class="imgCategorias" title="Laticínios" />
-                
-            </a>
-        </div>
+            </div>
+        </a>
+        <a href="@Url.Action("Index", "ListaItens", new { CodCategoria = 4 })">
+            <div id="divCarnes" class="divListaItensGeral">
 
-        <div id="divCarnes" class="divListaItensGeral">
-            <a href="@Url.Action("Index", "ListaItens")">
-                <img src="~/icons/steak.png" class="imgCategorias" title="carnes"/></a>
-        </div>
-
+                <img src="~/icons/steak.png" class="imgCategorias" title="carnes" />
+            </div>
+        </a>
     </div>
 
 }

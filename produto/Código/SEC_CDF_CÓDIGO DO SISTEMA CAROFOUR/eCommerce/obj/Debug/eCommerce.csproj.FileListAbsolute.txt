@@ -516,3 +516,4 @@ C:\Users\Moane\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO
 C:\Users\Moane\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\System.Web.Http.OData.xml
 C:\Users\Moane\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\obj\Debug\eCommerce.dll
 C:\Users\Moane\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\obj\Debug\eCommerce.pdb
+C:\Users\Moane\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\obj\Debug\eCommerce.csprojResolveAssemblyReference.cache

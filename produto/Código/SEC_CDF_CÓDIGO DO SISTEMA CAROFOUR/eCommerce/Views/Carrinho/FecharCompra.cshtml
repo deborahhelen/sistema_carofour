@@ -34,43 +34,53 @@
             <tr>
                 <td class="celulaFecharCompra">E-mail:*</td>
                 <td>
-                    <input type="text" id="txtEmail"/></td>
+                    <input type="text" id="txtEmail" /></td>
             </tr>
             <tr>
                 <td class="celulaFecharCompra">Endereço*</td>
                 <td>
-                    <input type="text"  id="txtEndereco"/></td>
+                    <input type="text" id="txtEndereco" /></td>
             </tr>
             <tr>
                 <td class="celulaFecharCompra">Telefone*</td>
                 <td>
-                    <input type="text" id="txtTelefone"  OnKeyUp="return formataTelefone(this,event);"/></td>
+                    <input type="text" id="txtTelefone" onkeyup="return formataTelefone(this,event);" maxlength="14" /></td>
             </tr>
-
-            <tr>             
+            <tr>
+                <td class="celulaFecharCompra">Usuário*</td>
+                <td>
+                    <input type="text" id="txtUsuario" /></td>
+            </tr>
+            <tr>
+                <td class="celulaFecharCompra">Senha*</td>
+                <td>
+                    <input type="text" id="txtSenha" onkeyup="return formataTelefone(this,event);" /></td>
+            </tr>
+            <tr>
                 <td>
                     <input type="button" value="Enviar" onclick="return validarFormularioCompra();"></td>
-               
-            </tr>           
-            
-             
+
+            </tr>
+
+
         </table>
         *Campos Obrigatórios
 
     </div>
 
-    <div class="divMensagemAgradecimento">
-        As compras devem ser entregue com no prazo máximo de 8 horas a partir da efetivação do pagamento.
+    <div id="divFormasPagamento" class="divMensagemAgradecimento">
+        Selecione a forma de pagamento:
         <br />
-       É um compromisso do Carofour entregar seus produtos de forma rápida e eficiente.
-       
         <br />
-        Parabéns pela compra!
+        <input type="radio" name="formaPagamento" value="boleto">Boleto bancário    <br />      
+      
+         <input type="radio" name="formaPagamento" value="credito">Cartão de crédito       
+        <br />
 
     </div>
 
     <div id="divMensagem" class="divMensagemAgradecimento">
-       As compras devem ser entregue com no prazo máximo de 8 horas a partir da efetivação do pagamento.
+        As compras devem ser entregue com no prazo máximo de 8 horas a partir da efetivação do pagamento.
         <br />
         É um compromisso do Carofour entregar seus produtos de forma rápida e eficiente.
         <br />

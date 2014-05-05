@@ -2,55 +2,64 @@
     ViewBag.Title = "Lista de Itens";
     Layout = "~/Views/Shared/_layout.cshtml";
 }
+@model List<eCommerce.Models.Produto>
 
 @section featured {
     <div id="listaItens">
         <h4 class="divTituloCategoria">Categorias</h4>
 
-        <br /> <hr />
+        <br />
+        <hr />
 
         <table>
             <tr>
                 <td>
-                    <div class="divListaCategorias">        
-                        <a href="@Url.Action("Index","ListaItens")">
-                            <img src="~/icons/apple.png" class="divBotoesCategoria" title="Hortifrutigranjeiros"/>
-                          
-                        </a> 
-                    </div>
+                     <a href="@Url.Action("Index", "ListaItens", new { CodCategoria = 1 })">
+                        <div class="divListaCategorias">
+                            <img src="~/icons/apple.png" class="divBotoesCategoria" title="Hortifrutigranjeiros" />
+                        </div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                     <a href="@Url.Action("Index", "ListaItens", new { CodCategoria = 2})">
+                        <div class="divListaCategorias">
+
+                            <img src="~/icons/cake.png" class="divBotoesCategoria" title="Padaria" />
+                        </div>
+                    </a>
                 </td>
             </tr>
 
             <tr>
                 <td>
-                    <div class="divListaCategorias">        
-                        <a href="@Url.Action("Index","ListaItens")"><img src="~/icons/cake.png" class="divBotoesCategoria" title="Padaria"/></a> 
-                    </div>
-                </td>
-            </tr>            
+                     <a href="@Url.Action("Index", "ListaItens", new { CodCategoria = 3 })">
+                        <div class="divListaCategorias">
 
-            <tr>
-                <td>
-                    <div class="divListaCategorias">        
-                        <a href="@Url.Action("Index","ListaItens")"><img src="~/icons/cheese-icon.png" class="divBotoesCategoria" title="Laticínios"/></a> 
-                    </div>
+                            <img src="~/icons/cheese-icon.png" class="divBotoesCategoria" title="Laticínios" />
+                        </div>
+                    </a>
                 </td>
             </tr>
             <tr>
-                <td>
-                    <div class="divListaCategorias">        
-                        <a href="@Url.Action("Index","ListaItens")"><img src="~/icons/steak.png" class="divBotoesCategoria" title="Carnes" /></a> 
+                <td> <a href="@Url.Action("Index", "ListaItens", new { CodCategoria = 4})">
+                    <div class="divListaCategorias">
+
+                        <img src="~/icons/steak.png" class="divBotoesCategoria" title="Carnes" />
                     </div>
+                </a>
                 </td>
-            </tr>            
+            </tr>
         </table>
-               
+
     </div>
 
     <div class="divOpcoes">
         <div>
             <div class="float-left">
-                <a href="@Url.Action("Index","Carrinho")"><input type="button" id="btnVerCarrinho" name="btnVerCarrinho" value="Ver Carrinho" /></a>
+                <a href="@Url.Action("Index", "Carrinho")">
+                    <input type="button" id="btnVerCarrinho" name="btnVerCarrinho" value="Ver Carrinho" /></a>
             </div>
 
             <div class="float-left">
@@ -58,74 +67,92 @@
             </div>
 
             <div class="float-left">
-                <a href="@Url.Action("FecharCompra","Carrinho")"><input type="button" id="btnFecharCompra" name="btnFecharCompra" value="Fechar Compras" /></a>
+                <a href="@Url.Action("FecharCompra", "Carrinho")">
+                    <input type="button" id="btnFecharCompra" name="btnFecharCompra" value="Fechar Compras" /></a>
             </div>
-        </div>        
+        </div>
 
-        <br /><br /><br /><br />
+        <br />
+        <br />
+        <br />
+        <br />
 
         <div>
-            <table id="divProdutos">                
+            <table id="divProdutos">
                 <tr id="headerListaItens" class="headerListaItens">
-                    <td class="columChkItensLista"><input type="checkbox" /></td>
+                    <td class="columChkItensLista">
+                        <input type="checkbox" /></td>
                     <td>Nome / Descrição</td>
                     <td>Preço R$</td>
-                    <td></td>                        
-                </tr>                               
-                <tr>
-                    <td class="columChkItensLista"><input type="checkbox" /></td>
-                    <td>Produto 1 - Descrição</td>
-                    <td>10,30</td>
-                    <td><a href="#">Comprar</a></td>
+                    <td></td>
                 </tr>
-                <tr>
-                    <td class="columChkItensLista"><input type="checkbox" /></td>
+                @foreach (var model in Model)
+                {                      
+                    <tr>
+                        <td class="columChkItensLista">
+                            <input type="checkbox" /></td>
+                        <td>
+                            @Html.DisplayFor(item => model.NomeProduto)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(item => model.Preco)
+                        </td>
+                        <td><a href="#">Comprar</a></td>
+                    </tr>
+                }
+
+
+
+              @*  <tr>
+                    <td class="columChkItensLista">
+                        <input type="checkbox" /></td>
                     <td>Produto 2 - Descrição</td>
                     <td>1,23</td>
                     <td><a href="#">Comprar</a></td>
-                </tr>
-                <tr>
-                    <td class="columChkItensLista"><input type="checkbox" /></td>
+                </tr>*@
+               @* <tr>
+                    <td class="columChkItensLista">
+                        <input type="checkbox" /></td>
                     <td>Produto 2 - Descrição</td>
                     <td>1,23</td>
                     <td><a href="#">Comprar</a></td>
+                </tr>*@
+               @* <tr>
+                    <td class="columChkItensLista">
+                        <input type="checkbox" /></td>
+                    <td>Produto 3 - Descrição</td>
+                    <td>2,23</td>
+                    <td><a href="#">Comprar</a></td>
+                </tr>*@
+               @* <tr>
+                    <td class="columChkItensLista">
+                        <input type="checkbox" /></td>
+                    <td>Produto 4 - Descrição</td>
+                    <td>3,23</td>
+                    <td><a href="#">Comprar</a></td>
                 </tr>
                 <tr>
-                    <td class="columChkItensLista"><input type="checkbox" /></td>
+                    <td class="columChkItensLista">
+                        <input type="checkbox" /></td>
+                    <td>Produto 4 - Descrição</td>
+                    <td>3,23</td>
+                    <td><a href="#">Comprar</a></td>
+                </tr>*@
+               @* <tr>
+                    <td class="columChkItensLista">
+                        <input type="checkbox" /></td>
                     <td>Produto 3 - Descrição</td>
                     <td>2,23</td>
                     <td><a href="#">Comprar</a></td>
                 </tr>
                 <tr>
-                    <td class="columChkItensLista"><input type="checkbox" /></td>
+                    <td class="columChkItensLista">
+                        <input type="checkbox" /></td>
                     <td>Produto 4 - Descrição</td>
                     <td>3,23</td>
                     <td><a href="#">Comprar</a></td>
-                </tr>
-                <tr>
-                    <td class="columChkItensLista"><input type="checkbox" /></td>
-                    <td>Produto 4 - Descrição</td>
-                    <td>3,23</td>
-                    <td><a href="#">Comprar</a></td>
-                </tr>
-                <tr>
-                    <td class="columChkItensLista"><input type="checkbox" /></td>
-                    <td>Produto 3 - Descrição</td>
-                    <td>2,23</td>
-                    <td><a href="#">Comprar</a></td>
-                </tr>   
-                <tr>
-                    <td class="columChkItensLista"><input type="checkbox" /></td>
-                    <td>Produto 4 - Descrição</td>
-                    <td>3,23</td>
-                    <td><a href="#">Comprar</a></td>
-                </tr>      
-                <tr>
-                    <td class="columChkItensLista"><input type="checkbox" /></td>
-                    <td>Produto 1 - Descrição</td>
-                    <td>10,30</td>
-                    <td><a href="#">Comprar</a></td>
-                </tr>       
+                </tr>*@
+               
             </table>
         </div>
     </div>

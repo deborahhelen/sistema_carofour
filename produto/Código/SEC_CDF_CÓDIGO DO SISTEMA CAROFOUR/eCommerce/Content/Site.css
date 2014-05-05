@@ -364,6 +364,7 @@ tr.pager td
     height: 60px;
     background-color: gray;
     border-radius: 4px;
+    cursor:pointer;
 }
 
 #divPadaria
@@ -445,10 +446,10 @@ tr.pager td
 
 .divDadosClienteCompra
 {
-    padding: 20px 40px 30px 40px;
+    padding: 10px 40px 30px 40px;
     position: absolute;
     width: 450px;
-    height: 400px;
+    height: 460px;
     background-color: white;
     margin-left: 40px;
     margin-top: 60px;
