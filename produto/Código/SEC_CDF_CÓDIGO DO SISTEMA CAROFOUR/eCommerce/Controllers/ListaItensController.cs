@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using eCommerce.Models;
+using Negocio.DAO;
 
 namespace eCommerce.Controllers
 {
@@ -14,47 +15,78 @@ namespace eCommerce.Controllers
 
         public ActionResult Index(int? CodCategoria)
         {
-            List<Produto> lstProdutosCategoria = new List<Produto>();
+            IList<Negocio.Model.Produto> lstProdutosCategoria = new List<Negocio.Model.Produto>();
+            CategoriaDAO lstCategorias = new CategoriaDAO();
+            ProdutoDAO produto = new ProdutoDAO();                    
             //Fazer método de chamada ao banco de dados
-           
-            switch (CodCategoria)
+
+            ViewBag.Categoria = lstCategorias.SelectAll();
+
+            lstProdutosCategoria = produto.SelectByCategoria(CodCategoria);
+                  
+                    
+            return View(lstProdutosCategoria);            
+        }
+        
+        public ActionResult AddProdutoCarrinho(int produtoId)
+        {            
+            IList<Negocio.Model.Produto> produtos = new List<Negocio.Model.Produto>();
+            Negocio.DAO.ProdutoDAO produtoDAO = new ProdutoDAO();
+
+            if (Session["produtos"] != null)
             {
-                case 1://Hortifrutigranjeiros
-                    lstProdutosCategoria.Add(new Produto(1,"Maça","",50));
-                    lstProdutosCategoria.Add(new Produto(1, "Banana", "", 50));
-                    lstProdutosCategoria.Add(new Produto(1, "Alface", "", 50));
-                    lstProdutosCategoria.Add(new Produto(1, "Tomate", "Tomate", 50));
-                    break;
-                case 2://Padaria
-                    lstProdutosCategoria.Add(new Produto(1, "Pão de forma", "", 50));
-                   lstProdutosCategoria.Add(new Produto(2,"Bolo","",50));
-                    lstProdutosCategoria.Add(new Produto(1, "Pão francês", "", 50));
-                   
-                    break;
-                case 3:         //laticinios          
-                    lstProdutosCategoria.Add(new Produto(1, "Leite desnatado", "", 50));
-                    lstProdutosCategoria.Add(new Produto(2, "Queijo minas", "", 50));
-                    lstProdutosCategoria.Add(new Produto(1, "Queijo prato", "", 50));
-                    break;
-                case 4://Carnes
-                   lstProdutosCategoria.Add(new Produto(1,"Frango congelado","",50));
-                    lstProdutosCategoria.Add(new Produto(1, "Peixe", "", 50));
-                    lstProdutosCategoria.Add(new Produto(100, "Bacon fatiado", "", 50));                    
-                    break;
-                default://Tratar isso
-                    lstProdutosCategoria.Add(new Produto(1,"Maça","",50));
-                    lstProdutosCategoria.Add(new Produto(1, "Banana", "", 50));
-                    lstProdutosCategoria.Add(new Produto(1, "Alface", "", 50));
-                    lstProdutosCategoria.Add(new Produto(1, "Tomate", "Tomate", 50));
-                    break;
+                Negocio.Model.Produto produto = new Negocio.Model.Produto();
+                produto = produtoDAO.SelectById(produtoId);
+                produto._Quantidade = 1;
+                ((IList<Negocio.Model.Produto>)Session["produtos"]).Add(produtoDAO.SelectById(produtoId));                    
+            }
+            else
+            {
+                Negocio.Model.Produto produto = new Negocio.Model.Produto();
+                produto = produtoDAO.SelectById(produtoId);
+                produto._Quantidade = 1;
+                produtos.Add(produto);
+                    
+                Session["produtos"] = produtos;
+            }            
+
+            return RedirectToAction("Index", "Carrinho");
+        }
+
+        [HttpPost]
+        public ActionResult AddProdutoCarrinho(IList<int> produto)
+        {
+            if(produto != null)
+            {
+                IList<Negocio.Model.Produto> produtos = new List<Negocio.Model.Produto>();
+                Negocio.DAO.ProdutoDAO produtoDAO = new ProdutoDAO();
+
+                if (Session["produtos"] != null)
+                {
+                    foreach (int produtoId in produto)
+                    {
+                        Negocio.Model.Produto objProduto = new Negocio.Model.Produto();
+                        objProduto = produtoDAO.SelectById(produtoId);
+                        objProduto._Quantidade = 1;
+                        ((IList<Negocio.Model.Produto>)Session["produtos"]).Add(objProduto); 
+                    }                
+                }
+                else
+                {
+                    foreach (int produtoId in produto)
+                    {
+                        Negocio.Model.Produto objProduto = new Negocio.Model.Produto();
+                        objProduto = produtoDAO.SelectById(produtoId);
+                        objProduto._Quantidade = 1;
+
+                        produtos.Add(objProduto); 
+                    }
+
+                    Session["produtos"] = produtos;
+                }
             }
 
-            //buscar as categorias do banco e preencher a tabela de produtos
-            return View(lstProdutosCategoria);
-        }
-        public ActionResult AddProdutoCarrinho(int CodProduto)
-        {
-            return View();
+            return RedirectToAction("Index", "Carrinho");
         }
     }
 }

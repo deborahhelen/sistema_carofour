@@ -2,56 +2,34 @@
     ViewBag.Title = "Lista de Itens";
     Layout = "~/Views/Shared/_layout.cshtml";
 }
-@model List<eCommerce.Models.Produto>
+@model IList<Negocio.Model.Produto>
 
 @section featured {
+
+@using (Html.BeginForm("AddProdutoCarrinho","ListaItens"))
+{
     <div id="listaItens">
         <h4 class="divTituloCategoria">Categorias</h4>
 
         <br />
         <hr />
 
-        <table>
-            <tr>
-                <td>
-                     <a href="@Url.Action("Index", "ListaItens", new { CodCategoria = 1 })">
-                        <div class="divListaCategorias">
-                            <img src="~/icons/apple.png" class="divBotoesCategoria" title="Hortifrutigranjeiros" />
-                        </div>
-                    </a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                     <a href="@Url.Action("Index", "ListaItens", new { CodCategoria = 2})">
-                        <div class="divListaCategorias">
-
-                            <img src="~/icons/cake.png" class="divBotoesCategoria" title="Padaria" />
-                        </div>
-                    </a>
-                </td>
-            </tr>
-
-            <tr>
-                <td>
-                     <a href="@Url.Action("Index", "ListaItens", new { CodCategoria = 3 })">
-                        <div class="divListaCategorias">
-
-                            <img src="~/icons/cheese-icon.png" class="divBotoesCategoria" title="Laticínios" />
-                        </div>
-                    </a>
-                </td>
-            </tr>
-            <tr>
-                <td> <a href="@Url.Action("Index", "ListaItens", new { CodCategoria = 4})">
-                    <div class="divListaCategorias">
-
-                        <img src="~/icons/steak.png" class="divBotoesCategoria" title="Carnes" />
-                    </div>
-                </a>
-                </td>
-            </tr>
-        </table>
+        <div style="overflow:auto; height:335px; width:145px;">
+            <table>            
+                @foreach(@Negocio.Model.Categoria categoria in ViewBag.Categoria)
+                {
+                    <tr>
+                        <td>
+                             <a href="@Url.Action("Index", "ListaItens", new { CodCategoria = @Html.DisplayFor(item => categoria._CategoriaId) })">
+                                <div class="divListaCategorias">
+                                    <img src="@categoria._UrlImagem" class="divBotoesCategoria" title="Hortifrutigranjeiros" />
+                                </div>
+                            </a>
+                        </td>
+                    </tr>    
+                }                        
+            </table>
+        </div>
 
     </div>
 
@@ -63,12 +41,15 @@
             </div>
 
             <div class="float-left">
-                <input type="button" id="btnComprarProdutos" name="btnComprarProdutos" value="Comprar Produtos" />
+                <!--<a href="@Url.Action("AddProdutoCarrinho", "ListaItens")">-->                    
+                    <input type="submit" id="btnComprarProdutos" name="btnComprarProdutos" value="Comprar Produtos" />
+                <!--</a>-->
             </div>
 
             <div class="float-left">
                 <a href="@Url.Action("FecharCompra", "Carrinho")">
-                    <input type="button" id="btnFecharCompra" name="btnFecharCompra" value="Fechar Compras" /></a>
+                    <input type="button" id="btnFecharCompra" name="btnFecharCompra" value="Fechar Compras" />
+                </a>
             </div>
         </div>
 
@@ -78,82 +59,57 @@
         <br />
 
         <div>
-            <table id="divProdutos">
-                <tr id="headerListaItens" class="headerListaItens">
-                    <td class="columChkItensLista">
-                        <input type="checkbox" /></td>
-                    <td>Nome / Descrição</td>
-                    <td>Preço R$</td>
-                    <td></td>
-                </tr>
-                @foreach (var model in Model)
-                {                      
-                    <tr>
+            <div style="overflow:auto; height:270px;">
+
+                <div class="headerListaItens listaProdutosCheckBox"> &nbsp; <input type="checkbox" id="marcarTodos" class="selectAll"  /></div>
+                <div class="headerListaItens listaProdutosNome"> &nbsp;Nome / Descrição</div>
+                <div class="headerListaItens listaProdutosPreco"> &nbsp; Preço R$</div>
+                <div class="headerListaItens listaProdutosLink"> &nbsp; Apagar</div>
+
+                @*<table id="divProdutos">
+                    <tr id="headerListaItens" class="headerListaItens">
                         <td class="columChkItensLista">
-                            <input type="checkbox" /></td>
-                        <td>
-                            @Html.DisplayFor(item => model.NomeProduto)
+                            <input type="checkbox" id="marcarTodos" class="selectAll"  />
                         </td>
-                        <td>
-                            @Html.DisplayFor(item => model.Preco)
-                        </td>
-                        <td><a href="#">Comprar</a></td>
-                    </tr>
-                }
-
-
-
-              @*  <tr>
-                    <td class="columChkItensLista">
-                        <input type="checkbox" /></td>
-                    <td>Produto 2 - Descrição</td>
-                    <td>1,23</td>
-                    <td><a href="#">Comprar</a></td>
-                </tr>*@
-               @* <tr>
-                    <td class="columChkItensLista">
-                        <input type="checkbox" /></td>
-                    <td>Produto 2 - Descrição</td>
-                    <td>1,23</td>
-                    <td><a href="#">Comprar</a></td>
-                </tr>*@
-               @* <tr>
-                    <td class="columChkItensLista">
-                        <input type="checkbox" /></td>
-                    <td>Produto 3 - Descrição</td>
-                    <td>2,23</td>
-                    <td><a href="#">Comprar</a></td>
-                </tr>*@
-               @* <tr>
-                    <td class="columChkItensLista">
-                        <input type="checkbox" /></td>
-                    <td>Produto 4 - Descrição</td>
-                    <td>3,23</td>
-                    <td><a href="#">Comprar</a></td>
-                </tr>
-                <tr>
-                    <td class="columChkItensLista">
-                        <input type="checkbox" /></td>
-                    <td>Produto 4 - Descrição</td>
-                    <td>3,23</td>
-                    <td><a href="#">Comprar</a></td>
-                </tr>*@
-               @* <tr>
-                    <td class="columChkItensLista">
-                        <input type="checkbox" /></td>
-                    <td>Produto 3 - Descrição</td>
-                    <td>2,23</td>
-                    <td><a href="#">Comprar</a></td>
-                </tr>
-                <tr>
-                    <td class="columChkItensLista">
-                        <input type="checkbox" /></td>
-                    <td>Produto 4 - Descrição</td>
-                    <td>3,23</td>
-                    <td><a href="#">Comprar</a></td>
-                </tr>*@
-               
-            </table>
+                        <td>Nome / Descrição</td>
+                        <td>Preço R$</td>
+                        <td></td>
+                    </tr>*@
+                    @if(Model != null)
+                    {
+                        foreach (var model in Model)
+                        {                     
+                            <div class="rowProdutosCheckBox"> &nbsp; <input type="checkbox" id="produto" name="produto" value="@Html.DisplayFor(item => model._ProdutoId)" /></div>
+                            <div class="rowProdutosNome"> &nbsp; @Html.DisplayFor(item => model._Nome) / @Html.DisplayFor(item => model._Descricao)</div>
+                            <div class="rowProdutosPreco"> &nbsp; @Html.DisplayFor(item => model._Preco)</div>
+                            <div class="rowProdutosLink"> &nbsp; @Html.ActionLink("Comprar","AddProdutoCarrinho", new { produtoId = model._ProdutoId })</div>
+                             
+                            @*<tr>
+                                <td class="columChkItensLista">                                
+                                    <input type="checkbox" id="produto" name="produto" value="@Html.DisplayFor(item => model._ProdutoId)" />                                
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(item => model._Nome) / @Html.DisplayFor(item => model._Descricao)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(item => model._Preco)
+                                </td>
+                                <td>@Html.ActionLink("Comprar","AddProdutoCarrinho", new { produtoId = model._ProdutoId })</td>
+                            </tr>*@
+                        }                  
+                    }
+                    else
+                    {
+                            <div class="gridEmpty">Selecione uma categoria.</div>
+                            @*<tr>
+                                <td class="columChkItensLista" colspan="3">                                
+                                    Selecione uma categoria.
+                                </td>
+                            </tr>*@
+                    }
+                @*</table>*@
+            </div>
         </div>
     </div>
+    }
 }

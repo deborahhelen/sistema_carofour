@@ -1,6 +1,8 @@
 ﻿@{
     ViewBag.Title = "Início";
 }
+@model IList<Negocio.Model.Categoria>
+
 @section featured {
     <div class="divApresentacao">
         <h4 class="divTituloCategoria">Somos o Grupo Carofour, pioneiros no varejo brasileiro.</h4>
@@ -24,28 +26,37 @@
         <br />
         <hr />
 
-        <a href="@Url.Action("Index", "ListaItens", new { CodCategoria = 1 })">
-            <div class="divListaItensGeral">
-                <img src="~/icons/apple.png" class="imgCategorias" title="Hortifrutigranjeiros" />
-            </div>
-        </a>
-       <a href="@Url.Action("Index", "ListaItens", new { CodCategoria = 2 })">
-            <div id="divPadaria" class="divListaItensGeral">
+        @{            
+            int i = 1;            
+            int marginTop = 0;   
+        }
 
-                <img src="~/icons/cake.png" class="imgCategorias" title="Padaria" />
-            </div>
-        </a>
-        <a href="@Url.Action("Index", "ListaItens", new { CodCategoria = 3 })">
-            <div id="divLaticinios" class="divListaItensGeral">
-                <img src="~/icons/cheese-icon.png" class="imgCategorias" title="Laticínios" />
-            </div>
-        </a>
-        <a href="@Url.Action("Index", "ListaItens", new { CodCategoria = 4 })">
-            <div id="divCarnes" class="divListaItensGeral">
+        @foreach(var model in Model)
+        {                                               
+            string strMarginTop = marginTop + "px;";                        
+            
+            if((i % 2) != 0)
+            {                             
+                <a href="@Url.Action("Index", "ListaItens", new { CodCategoria = @Html.DisplayFor(item => model._CategoriaId) })">
+                    <div class="divListaItensGeral" style="margin-left:0px; margin-top:@strMarginTop">
+                        <img src="@Html.DisplayFor(item => model._UrlImagem)" class="imgCategorias" title="Hortifrutigranjeiros" />
+                    </div>
+                </a>
+            }
+            else 
+            {
+                <a href="@Url.Action("Index", "ListaItens", new { CodCategoria = @Html.DisplayFor(item => model._CategoriaId) })">
+                    <div class="divListaItensGeral" style="margin-left:320px; margin-top:@strMarginTop">
+                        <img src="@Html.DisplayFor(item => model._UrlImagem)" class="imgCategorias" title="Hortifrutigranjeiros" />
+                    </div>
+                </a>
+                            
+                //i = 1;
+                marginTop += 120;
+            }
 
-                <img src="~/icons/steak.png" class="imgCategorias" title="carnes" />
-            </div>
-        </a>
+            i++;
+        }       
     </div>
 
 }

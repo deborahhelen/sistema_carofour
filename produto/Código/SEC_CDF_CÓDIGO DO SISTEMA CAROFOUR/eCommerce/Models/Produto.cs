@@ -8,20 +8,20 @@ namespace eCommerce.Models
 {
     public class Produto
     {
-        public Produto(int codProduto, string nome, string descricao, double preco)
+        private int produtoId;
+        private bool isChecked;
+
+        public int _ProdutoId
         {
-            CodProduto = codProduto;
-            NomeProduto = nome;
-            Descricao = descricao;
-            Preco = preco;
+            get { return produtoId; }
+            set { produtoId = value; }
+        }        
+
+        public bool _IsChecked
+        {
+            get { return isChecked; }
+            set { isChecked = value; }
         }
-       
-        public int CodProduto { get; set; }
-        public string NomeProduto { get; set; }
-        public string Descricao { get; set; }
-        public string UrlImagem { get; set; }
-        public double Preco { get; set; }
-        public int CodCategoria { get; set; }
 
     }
 }

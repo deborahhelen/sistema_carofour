@@ -337,6 +337,7 @@ tr.pager td
     position: absolute;
     width: 500px;
     height: 330px;
+    overflow:auto;
     background-color: white;
     margin-left: 650px;
     margin-top: 60px;
@@ -399,7 +400,7 @@ tr.pager td
 {
     padding: 20px 40px 30px 40px;
     position: absolute;
-    width: 480px;
+    width: 1100px;
     height: 70px;
     background-color: white;
     margin-left: 40px;
@@ -426,7 +427,7 @@ tr.pager td
 {
     padding: 20px 40px 30px 40px;
     position: absolute;
-    width: 310px;
+    width: 400px;
     height: 200px;
     background-color: white;
     margin-top: 220px;
@@ -436,12 +437,14 @@ tr.pager td
 
 #divItensPedidos
 {
+    width:500px;
     margin-left: 40px;
 }
 
 #divDadosCliente
 {
-    margin-left: 470px;
+    width:485px;
+    margin-left: 650px;
 }
 
 .divDadosClienteCompra
@@ -499,7 +502,7 @@ tr.pager td
 #divProdutos
 {
     padding: 5px 5px 5px 5px;
-    width: 600px;
+    width: 700px;
 }
 
 #divProdutosCarrinho
@@ -542,3 +545,204 @@ tr.pager td
     width: 200px;
     height: 60px;
 }
+
+.headerProdNome {
+    text-align:left;
+    width:195px;
+    background-color:gray;
+    color:white;
+}
+.headerProdDescricao {
+    text-align:left;
+    margin-top:-19px;
+    margin-left:210px;
+    width:250px;
+    background-color:gray;
+    color:white;
+}
+.headerProdQtde {
+    margin-top:-19px;
+    margin-left:470px;
+    width:50px;    
+    background-color:gray;
+    color:white;
+}
+.rowProdNome {
+    text-align:left;
+    margin-top:0px;
+    width:195px;
+    
+    color:black;
+    margin-top:10px;
+}
+.rowProdDescricao {
+    text-align:left;
+    margin-top:-19px;
+    margin-left:210px;
+    width:250px;
+    
+    color:black;    
+}
+.rowProdQtde {
+    text-align:center;
+    margin-top:-19px;
+    margin-left:470px;
+    width:50px;    
+    
+    color:black;
+}
+
+.headerClienteNome {
+    text-align:left;    
+    width:500px;
+    background-color:gray;
+    color:white;
+    font-size:18px;
+}
+.headerClienteEndereco {
+    text-align:left;
+    width:500px;
+    margin-top:1px;
+    background-color:gray;
+    color:white;
+    font-size:18px;
+}
+.headerClienteTelefone {
+    text-align:left;
+    width:500px;
+    margin-top:1px;
+    background-color:gray;
+    color:white;
+    font-size:18px;
+}
+.headerClienteEmail {
+    text-align:left;
+    width:500px;
+    margin-top:1px;
+    background-color:gray;
+    color:white;
+    font-size:18px;    
+    color: white;    
+}
+.headerClienteValorTotal {
+    text-align:left;
+    width:500px;
+    margin-top:1px;
+    background-color:gray;
+    color:white;
+    font-size:18px;    
+    color: white;    
+}
+
+/* ----- */
+
+.listaProdutosCheckBox {
+    width:80px;
+    height:20px;
+    background-color:gray;
+    margin-top:5px;    
+    color: white;
+    font-weight: bold;
+}
+.listaProdutosNome {
+    width:400px;
+    height:20px;
+    margin-left:90px;
+    margin-top:-20px;
+    background-color:gray;    
+    color: white;
+    font-weight: bold;
+}
+.listaProdutosPreco {
+    width:80px;
+    height:20px;
+    margin-left:500px;
+    margin-top:-20px;
+    background-color:gray;    
+    color: white;
+    font-weight: bold;
+}
+.listaProdutosLink {
+    width:80px;    
+    margin-left:600px;
+    margin-top:-20px;
+    background-color:gray;    
+    color: white;
+    font-weight: bold;
+}
+
+.rowProdutosCheckBox {
+    width:80px;
+    height:20px;    
+    margin-top:5px;    
+    font-weight: bold;
+}
+.rowProdutosNome {
+    width:400px;
+    height:20px;
+    margin-left:90px;
+    margin-top:-20px;        
+    font-weight: bold;
+}
+.rowProdutosPreco {
+    width:80px;
+    height:20px;
+    margin-left:500px;
+    margin-top:-20px;        
+    font-weight: bold;
+}
+.rowProdutosLink {
+    width:80px;    
+    margin-left:600px;
+    margin-top:-20px;    
+    font-weight: bold;
+}
+
+.gridEmpty {
+    margin-top:2px;
+    width:680px;
+    text-align:center;    
+}
+
+
+.itemCarrinhoImg {
+    width:80px;    
+    margin-left:0px;
+    color:white;
+    margin-top:0px;
+    background-color:gray;
+}
+
+.itemCarrinhoNome {
+    width:320px;    
+    margin-left:85px;
+    color:white;
+    margin-top:-20px;
+    background-color:gray;
+}
+
+.itemCarrinhoQtde {
+    width:80px;    
+    margin-left:420px;
+    color:white;
+    margin-top:-20px;
+    background-color:gray;
+}
+
+.itemCarrinhoPreco {
+    width:80px;    
+    margin-left:505px;
+    color:white;
+    margin-top:-20px;
+    background-color:gray;
+}
+
+.itemCarrinhoLnk {
+    width:80px;    
+    margin-left:600px;
+    color:white;
+    margin-top:-20px;
+    background-color:gray;
+}
+
+

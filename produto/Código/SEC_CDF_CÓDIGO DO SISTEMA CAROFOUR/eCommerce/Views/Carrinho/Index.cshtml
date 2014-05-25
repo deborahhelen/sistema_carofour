@@ -2,102 +2,74 @@
     ViewBag.Title = "Carrinho";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+@model IList<Negocio.Model.Produto>
 
 @section featured {
-    <div class="divConteudo">
+    @using (Html.BeginForm("FecharCompra", "Carrinho", FormMethod.Post, new { @id = "frmFecharCompra", @name = "frmFecharCompra" }))
+    {
+        <div class="divConteudo">
         
-        <div id="divSubtotal">
-            <span>Subtotal: R$ 16,99</span>
+            <div id="divSubtotal">
+                <span>Subtotal: @ViewBag.SubTotal </span>
+            </div>
+
+            <br /> <hr />
+
+            <div>
+                <div class="float-left">
+                    <a href="@Url.Action("LimparCarrinho", "Carrinho")" >
+                        <input type="button" id="btnLimparCarrinho" name="btnLimparCarrinho" value="Limpar Carrinho" />
+                    </a>
+                </div>
+
+                <div class="float-left">
+                    <a href="@Url.Action("Index", "ListaItens")" >
+                        <input type="button" id="btnContinuarCompras" name="btnContinuarCompras" value="Continuar Compras" />
+                    </a>
+                </div>
+
+                <div class="float-left">                    
+                    <input type="submit" id="btnFecharCompra" name="btnFecharCompra" value="Fechar Compras" />                    
+                </div>
+            </div>      
+
+            <br /><br /><br /><br />
+       
+            <div id="divTabelaProdutos">
+                <table id="divProdutosCarrinho">                                 
+                    <tr ID="headerItensCarrinho">
+                        <td class="centerContet"></td>
+                        <td>Nome / Descrição</td>
+                        <td class="columChkItensLista">Quantidade</td>
+                        <td class="centerContet">Preço R$</td>
+                        <td></td>                        
+                    </tr>                               
+
+                    @if (Model != null)
+                    {
+                        foreach (var model in Model)
+                        {
+                            <tr>
+                                <td class="centerContet"><img src="@Html.DisplayFor(item => model._UrlImagem)" class="imgItensCarrinho" /></td>
+                                <td>@Html.DisplayFor(item => model._Nome) / @Html.DisplayFor(item => model._Descricao)</td>
+                                <td class="centerContet">
+                                    <input type="text" id="_Quantidade" name="_Quantidade" style="width:30px;" value="@Html.DisplayFor(item => model._Quantidade)" />
+                                </td>
+                                <td class="centerContet">@Html.DisplayFor(item => model._Preco)</td>
+                                <td>@Html.ActionLink("Atualizar", "AtualizarQuantidade", new { produtoId = model._ProdutoId, _Quantidade = "value" }, new { @class = "lnk", @id = "lnk" }) / @Html.ActionLink("Remover", "RemoverItem", new { produtoId = model._ProdutoId }, new { @id = "remover" })</td>
+                            </tr>                    
+                        }
+                    }
+                    else
+                    {
+                            <tr>
+                                <td class="centerContet" colspan="5">
+                                    Clique em continuar compra para adicionar novos produtos.
+                                </td>
+                            </tr>                    
+                    }
+                </table>
+            </div>        
         </div>
-
-        <br /> <hr />
-
-        <div>
-            <div class="float-left">
-                <a href="@Url.Action("Index","Carrinho")"><input type="button" id="btnLimparCarrinho" name="btnLimparCarrinho" value="Limpar Carrinho" /></a>
-            </div>
-
-            <div class="float-left">
-                <a href="@Url.Action("Index","ListaItens")"><input type="button" id="btnContinuarCompras" name="btnContinuarCompras" value="Continuar Compras" /></a>
-            </div>
-
-            <div class="float-left">
-                <a href="@Url.Action("FecharCompra","Carrinho")"><input type="button" id="btnFecharCompra" name="btnFecharCompra" value="Fechar Compras" /></a>
-            </div>
-        </div>      
-
-        <br /><br /><br /><br />
-
-        <div id="divTabelaProdutos">
-            <table id="divProdutosCarrinho">                
-                <tr ID="headerItensCarrinho">
-                    <td class="centerContet"></td>
-                    <td>Nome / Descrição</td>
-                    <td class="columChkItensLista">Quantidade</td>
-                    <td class="centerContet">Preço R$</td>
-                    <td></td>                        
-                </tr>                               
-                <tr>
-                    <td class="centerContet"><img src="~/icons/apple.png" class="imgItensCarrinho" /></td>
-                    <td>Produto 1 - Descrição</td>
-                    <td class="centerContet">1</td>
-                    <td class="centerContet">10,30</td>
-                    <td><a href="#">Atualizar</a>/<a href="#">Remover</a></td>
-                </tr>
-                <tr>
-                    <td class="centerContet"><img src="~/icons/cake.png" class="imgItensCarrinho" /></td>
-                    <td>Produto 2 - Descrição</td>
-                    <td class="centerContet">2</td>
-                    <td class="centerContet">1,23</td>
-                    <td><a href="#">Atualizar</a>/<a href="#">Remover</a></td>
-                </tr>
-                <tr>
-                    <td class="centerContet"><img src="~/icons/edit_clear.png" class="imgItensCarrinho" /></td>
-                    <td>Produto 2 - Descrição</td>
-                    <td class="centerContet">2</td>
-                    <td class="centerContet">1,23</td>
-                    <td><a href="#">Atualizar</a>/<a href="#">Remover</a></td>
-                </tr>
-                <tr>
-                    <td class="centerContet"><img src="~/icons/lettuce.png" class="imgItensCarrinho" /></td>
-                    <td>Produto 3 - Descrição</td>
-                    <td class="centerContet">3</td>
-                    <td class="centerContet">2,23</td>
-                    <td><a href="#">Atualizar</a>/<a href="#">Remover</a></td>
-                </tr>
-                <tr>
-                    <td class="centerContet"><img src="~/icons/apple.png" class="imgItensCarrinho" /></td>
-                    <td>Produto 4 - Descrição</td>
-                    <td class="centerContet">4</td>
-                    <td class="centerContet">3,23</td>
-                    <td><a href="#">Atualizar</a>/<a href="#">Remover</a></td>
-                </tr>
-                   
-                     
-                <tr>
-                    <td class="centerContet"><img src="~/icons/cake.png" class="imgItensCarrinho" /></td>
-                    <td>Produto 2 - Descrição</td>
-                    <td class="centerContet">2</td>
-                    <td class="centerContet">1,23</td>
-                    <td><a href="#">Atualizar</a>/<a href="#">Remover</a></td>
-                </tr>
-                <tr>
-                    <td class="centerContet"><img src="~/icons/apple.png" class="imgItensCarrinho" /></td>
-                    <td>Produto 1 - Descrição</td>
-                    <td class="centerContet">1</td>
-                    <td class="centerContet">10,30</td>
-                    <td><a href="#">Atualizar</a>/<a href="#">Remover</a></td>
-                </tr>
-                <tr>
-                    <td class="centerContet"><img src="~/icons/cake.png" class="imgItensCarrinho" /></td>
-                    <td>Produto 2 - Descrição</td>
-                    <td class="centerContet">2</td>
-                    <td class="centerContet">1,23</td>
-                    <td><a href="#">Atualizar</a>/<a href="#">Remover</a></td>
-                </tr>
-            </table>
-        </div>
- 
-
-    </div>
+    }
 }

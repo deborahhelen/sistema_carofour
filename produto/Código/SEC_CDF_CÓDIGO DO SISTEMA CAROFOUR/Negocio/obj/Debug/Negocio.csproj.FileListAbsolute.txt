@@ -1,0 +1,4 @@
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\Negocio\bin\Debug\Negocio.dll
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\Negocio\obj\Debug\Negocio.dll
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\Negocio\obj\Debug\Negocio.pdb

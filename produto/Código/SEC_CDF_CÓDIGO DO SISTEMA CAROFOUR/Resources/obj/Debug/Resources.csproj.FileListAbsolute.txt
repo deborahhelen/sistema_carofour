@@ -1,0 +1,5 @@
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\Resources\bin\Debug\Resources.dll
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\Resources\bin\Debug\Resources.pdb
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\Resources\obj\Debug\Resources.csprojResolveAssemblyReference.cache
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\Resources\obj\Debug\Resources.dll
+C:\Users\Juninho\Documents\Visual Studio 2012\Projects\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\Resources\obj\Debug\Resources.pdb
