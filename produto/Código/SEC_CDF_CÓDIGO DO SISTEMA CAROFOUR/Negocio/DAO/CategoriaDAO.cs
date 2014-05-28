@@ -71,7 +71,8 @@ namespace Negocio.DAO
 
             return categoria;
         }
-
+        
+        // Selecionar todas as categorias
         public IList<Model.Categoria> SelectAll()
         {
             IList<Model.Categoria> categorias = new List<Model.Categoria>();

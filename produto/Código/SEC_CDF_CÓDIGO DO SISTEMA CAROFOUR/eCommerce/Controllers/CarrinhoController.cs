@@ -8,7 +8,6 @@ namespace eCommerce.Controllers
 {
     public class CarrinhoController : Controller
     {
-        //
         // GET: /Carrinho/
 
         public ActionResult Index()
@@ -29,6 +28,7 @@ namespace eCommerce.Controllers
             return View(produtos);
         }
 
+        // Atualizar a quantidade do produto
         public ActionResult AtualizarQuantidade(int produtoId, string _Quantidade)
         {
             for (int i = 0; i < ((IList<Negocio.Model.Produto>)Session["produtos"]).ToList().Count; i++)
@@ -41,14 +41,18 @@ namespace eCommerce.Controllers
                 }
             }
 
+            // Recalcula o subtotal, coloca a máscara de Moeda e exibe na tela
             ViewBag.SubTotal = CalculaSubTotal((IList<Negocio.Model.Produto>)Session["produtos"]).ToString("C");
 
             return View("Index", ((IList<Negocio.Model.Produto>)Session["produtos"]));
         }
 
         [HttpPost]
+
+        // Fechar a compra dos produtos escolhidos
         public ActionResult FecharCompra(IList<int> _Quantidade)
         {
+            // Verifica se existe itens no carrinho 
             if (Session["itensPedido"] != null)
             {
                 for (int i = 0; i < _Quantidade.Count; i++)
@@ -60,8 +64,10 @@ namespace eCommerce.Controllers
             {
                 IList<Negocio.Model.ItemPedido> itensPedido = new List<Negocio.Model.ItemPedido>();
 
+                // 
                 if (Session["produtos"] != null)
                 {
+                    // Adiciona os itens do carrinho ao Pedido
                     for (int i = 0; i < _Quantidade.Count; i++)
                     {
                         Negocio.Model.ItemPedido itemPedido = new Negocio.Model.ItemPedido();
@@ -80,15 +86,18 @@ namespace eCommerce.Controllers
             return View();
         }
 
+        // Limpar Carrinho
         public ViewResult LimparCarrinho()
         {
             Session.Clear();
 
+            // Recalcula o subtotal, coloca a máscara de Moeda e exibe na tela
             ViewBag.SubTotal = CalculaSubTotal((IList<Negocio.Model.Produto>)Session["produtos"]).ToString("C");
 
             return View("Index");
         }
 
+        // Remover o item do Carrinho
         public ViewResult RemoverItem(int produtoId)
         {
             for (int i = 0; i < ((IList<Negocio.Model.Produto>)Session["produtos"]).ToList().Count; i++)
@@ -140,6 +149,7 @@ namespace eCommerce.Controllers
                     lstProdutos.Add(prod);
                 }
 
+                // Exibe as informações do Pedido na tela
                 ViewBag.NumPedido = pedido._Numero;
                 ViewBag.NomeCompleto = cliente._NomeCompleto;
                 ViewBag.DataNascimento = cliente._DataNascimento;
@@ -154,6 +164,7 @@ namespace eCommerce.Controllers
             return View(lstProdutos);
         }
 
+        // Calcular o o Subtotal
         private Double CalculaSubTotal(IList<Negocio.Model.Produto> produtos)
         {
             Double SubTotal = 0;

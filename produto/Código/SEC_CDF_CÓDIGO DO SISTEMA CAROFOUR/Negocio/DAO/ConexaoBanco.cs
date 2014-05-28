@@ -18,10 +18,15 @@ namespace Negocio.DAO
             //                          "User=sa;" +
             //                          "Password=1q2w3e";
 
-            string connectionString = "Data Source=CN-PC\\SQLSERVEREXPRESS;" +
+           //  string connectionString = "Data Source=CN-PC\\SQLSERVEREXPRESS;" +
+           //                           "Initial Catalog=Carofour;" +
+           //                           "User=sa;" +
+           //                           "Password=1q2w3e";
+
+            string connectionString = "Data Source=notedeborah\\sqlexpress;" +
                                       "Initial Catalog=Carofour;" +
                                       "User=sa;" +
-                                      "Password=1q2w3e";
+                                      "Password=deborah@123";
 
             SqlConnection conn = new SqlConnection(connectionString);
             conn.Open();
