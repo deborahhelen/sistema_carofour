@@ -115,6 +115,7 @@ namespace eCommerce.Controllers
             return View("Index", ((IList<Negocio.Model.Produto>)Session["produtos"]));
         }
 
+        // Salvar o Cliente Pedido e Itens do Pedido
         public ActionResult DadosPedido(Negocio.Model.Cliente cliente)
         {
             IList<Negocio.Model.Produto> lstProdutos = new List<Negocio.Model.Produto>();
