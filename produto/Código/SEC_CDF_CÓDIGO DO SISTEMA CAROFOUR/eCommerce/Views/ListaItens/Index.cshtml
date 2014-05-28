@@ -14,7 +14,7 @@
         <br />
         <hr />
 
-        <div style="overflow:auto; height:335px; width:145px;">
+        <div class="divExibirCategorias">
             <table>            
                 @foreach(@Negocio.Model.Categoria categoria in ViewBag.Categoria)
                 {
@@ -22,7 +22,7 @@
                         <td>
                              <a href="@Url.Action("Index", "ListaItens", new { CodCategoria = @Html.DisplayFor(item => categoria._CategoriaId) })">
                                 <div class="divListaCategorias">
-                                    <img src="@categoria._UrlImagem" class="divBotoesCategoria" title="Hortifrutigranjeiros" />
+                                    <img src="@categoria._UrlImagem" class="divBotoesCategoria" title="@categoria._Nome" />
                                 </div>
                             </a>
                         </td>
@@ -59,22 +59,13 @@
         <br />
 
         <div>
-            <div style="overflow:auto; height:270px;">
+            <div style="">
 
                 <div class="headerListaItens listaProdutosCheckBox"> &nbsp; <input type="checkbox" id="marcarTodos" class="selectAll"  /></div>
                 <div class="headerListaItens listaProdutosNome"> &nbsp;Nome / Descrição</div>
                 <div class="headerListaItens listaProdutosPreco"> &nbsp; Preço R$</div>
                 <div class="headerListaItens listaProdutosLink"> &nbsp; Apagar</div>
-
-                @*<table id="divProdutos">
-                    <tr id="headerListaItens" class="headerListaItens">
-                        <td class="columChkItensLista">
-                            <input type="checkbox" id="marcarTodos" class="selectAll"  />
-                        </td>
-                        <td>Nome / Descrição</td>
-                        <td>Preço R$</td>
-                        <td></td>
-                    </tr>*@
+               
                     @if(Model != null)
                     {
                         foreach (var model in Model)
@@ -83,31 +74,15 @@
                             <div class="rowProdutosNome"> &nbsp; @Html.DisplayFor(item => model._Nome) / @Html.DisplayFor(item => model._Descricao)</div>
                             <div class="rowProdutosPreco"> &nbsp; @Html.DisplayFor(item => model._Preco)</div>
                             <div class="rowProdutosLink"> &nbsp; @Html.ActionLink("Comprar","AddProdutoCarrinho", new { produtoId = model._ProdutoId })</div>
-                             
-                            @*<tr>
-                                <td class="columChkItensLista">                                
-                                    <input type="checkbox" id="produto" name="produto" value="@Html.DisplayFor(item => model._ProdutoId)" />                                
-                                </td>
-                                <td>
-                                    @Html.DisplayFor(item => model._Nome) / @Html.DisplayFor(item => model._Descricao)
-                                </td>
-                                <td>
-                                    @Html.DisplayFor(item => model._Preco)
-                                </td>
-                                <td>@Html.ActionLink("Comprar","AddProdutoCarrinho", new { produtoId = model._ProdutoId })</td>
-                            </tr>*@
+                                                         
                         }                  
                     }
                     else
                     {
                             <div class="gridEmpty">Selecione uma categoria.</div>
-                            @*<tr>
-                                <td class="columChkItensLista" colspan="3">                                
-                                    Selecione uma categoria.
-                                </td>
-                            </tr>*@
+                           
                     }
-                @*</table>*@
+               
             </div>
         </div>
     </div>

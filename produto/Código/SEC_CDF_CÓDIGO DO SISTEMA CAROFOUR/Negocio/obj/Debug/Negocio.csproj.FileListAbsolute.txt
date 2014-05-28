@@ -2,3 +2,18 @@ C:\Users\Juninho\Documents\Visual Studio 2012\Projects\SEC_CDF_CÓDIGO DO SISTEM
 C:\Users\Juninho\Documents\Visual Studio 2012\Projects\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\Negocio\bin\Debug\Negocio.pdb
 C:\Users\Juninho\Documents\Visual Studio 2012\Projects\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\Negocio\obj\Debug\Negocio.dll
 C:\Users\Juninho\Documents\Visual Studio 2012\Projects\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\Negocio\obj\Debug\Negocio.pdb
+C:\Users\CN\Downloads\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\Negocio\bin\Debug\Negocio.dll
+C:\Users\CN\Downloads\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\Negocio\bin\Debug\Negocio.pdb
+C:\Users\CN\Downloads\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\CN\Downloads\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\Negocio\obj\Debug\Negocio.dll
+C:\Users\CN\Downloads\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\Negocio\obj\Debug\Negocio.pdb
+E:\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\Negocio\bin\Debug\Negocio.dll
+E:\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\Negocio\bin\Debug\Negocio.pdb
+E:\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+E:\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\Negocio\obj\Debug\Negocio.dll
+E:\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\Negocio\obj\Debug\Negocio.pdb
+G:\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\Negocio\bin\Debug\Negocio.dll
+G:\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\Negocio\bin\Debug\Negocio.pdb
+G:\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+G:\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\Negocio\obj\Debug\Negocio.dll
+G:\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\Negocio\obj\Debug\Negocio.pdb

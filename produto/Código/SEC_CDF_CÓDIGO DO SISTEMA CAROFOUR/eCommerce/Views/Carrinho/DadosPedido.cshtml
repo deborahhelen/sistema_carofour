@@ -6,25 +6,27 @@
 
 @section featured {
     <div class="divTituloPedido">
-            <span style="font-size:15px; color:blue; font-weight:bold">Pedido Realizado com Sucesso.</span>
+            <span class="divFinalPedido">Pedido Realizado com Sucesso.</span>
 
             <br />
         
-        <span style="font-size:15px; color:blue; font-weight:bold">Numero Pedido:</span> <span style="font-size:15px; color:red; font-weight:bold"> <span>@ViewBag.NumPedido</span>
+        <span class="divFinalPedido">Numero Pedido:</span> <span class="divNumPedido"> <span>@ViewBag.NumPedido</span></span>
                     
     </div>
 
-        <div ID="divItensPedidos" class="divDadosPedido">
+        <div ID="divItensPedidos" class="divDadosPedido" >
         
             <div class="headerProdNome">Produto</div>
             <div class="headerProdDescricao">Descrição</div>
             <div class="headerProdQtde">Qtde</div>
+             
 
             @foreach (var model in Model )
 	        {
 		        <div class="rowProdNome">@Html.DisplayFor(item => model._Nome)</div>
                 <div class="rowProdDescricao">@Html.DisplayFor(item => model._Descricao)</div>
                 <div class="rowProdQtde">@Html.DisplayFor(item => model._Quantidade)</div>
+               
 	        }
             
         </div>

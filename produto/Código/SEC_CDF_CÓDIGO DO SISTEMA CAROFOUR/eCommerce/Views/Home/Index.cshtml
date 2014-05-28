@@ -39,7 +39,7 @@
             {                             
                 <a href="@Url.Action("Index", "ListaItens", new { CodCategoria = @Html.DisplayFor(item => model._CategoriaId) })">
                     <div class="divListaItensGeral" style="margin-left:0px; margin-top:@strMarginTop">
-                        <img src="@Html.DisplayFor(item => model._UrlImagem)" class="imgCategorias" title="Hortifrutigranjeiros" />
+                        <img src="@Html.DisplayFor(item => model._UrlImagem)" class="imgCategorias" title="@Html.DisplayFor(item => model._Nome)" />
                     </div>
                 </a>
             }
@@ -47,7 +47,7 @@
             {
                 <a href="@Url.Action("Index", "ListaItens", new { CodCategoria = @Html.DisplayFor(item => model._CategoriaId) })">
                     <div class="divListaItensGeral" style="margin-left:320px; margin-top:@strMarginTop">
-                        <img src="@Html.DisplayFor(item => model._UrlImagem)" class="imgCategorias" title="Hortifrutigranjeiros" />
+                        <img src="@Html.DisplayFor(item => model._UrlImagem)" class="imgCategorias" title="@Html.DisplayTextFor(item => model._Nome)" />
                     </div>
                 </a>
                             

@@ -60,15 +60,21 @@ namespace eCommerce.Controllers
             {
                 IList<Negocio.Model.ItemPedido> itensPedido = new List<Negocio.Model.ItemPedido>();
 
-                for (int i = 0; i < _Quantidade.Count; i++)
+                if (Session["produtos"] != null)
                 {
-                    Negocio.Model.ItemPedido itemPedido = new Negocio.Model.ItemPedido();                    
-                    itemPedido._Produto = ((IList<Negocio.Model.Produto>)Session["produtos"]).ElementAt(i);
-                    itemPedido._Quantidade = _Quantidade[i];
-                    itensPedido.Add(itemPedido);
-                }                
-
+                    for (int i = 0; i < _Quantidade.Count; i++)
+                    {
+                        Negocio.Model.ItemPedido itemPedido = new Negocio.Model.ItemPedido();
+                        itemPedido._Produto = ((IList<Negocio.Model.Produto>)Session["produtos"]).ElementAt(i);
+                        itemPedido._Quantidade = _Quantidade[i];
+                        itensPedido.Add(itemPedido);
+                    }
+                }
                 Session["itensPedido"] = itensPedido;
+
+                Double totalCompra = Convert.ToDouble(CalculaSubTotal((IList<Negocio.Model.Produto>)Session["produtos"]));
+                ViewBag.TotalCompra = totalCompra.ToString("C");
+                ViewBag.TotalPagar = (totalCompra + 10.0).ToString("C");//O frete definido será de 10 reais
             }
 
             return View();
@@ -102,7 +108,7 @@ namespace eCommerce.Controllers
 
         public ActionResult DadosPedido(Negocio.Model.Cliente cliente)
         {
-            IList<Negocio.Model.Produto> lstPodutos = new List<Negocio.Model.Produto>();
+            IList<Negocio.Model.Produto> lstProdutos = new List<Negocio.Model.Produto>();
 
             if(Session["itensPedido"] != null)
             {
@@ -131,7 +137,7 @@ namespace eCommerce.Controllers
                     prod = produtoDAO.SelectById(itemPedido._Produto._ProdutoId);
                     prod._Quantidade = itemPedido._Quantidade;
 
-                    lstPodutos.Add(prod);
+                    lstProdutos.Add(prod);
                 }
 
                 ViewBag.NumPedido = pedido._Numero;
@@ -145,7 +151,7 @@ namespace eCommerce.Controllers
                 Session.Clear();
             }
 
-            return View(lstPodutos);
+            return View(lstProdutos);
         }
 
         private Double CalculaSubTotal(IList<Negocio.Model.Produto> produtos)
@@ -154,7 +160,7 @@ namespace eCommerce.Controllers
 
             if (produtos != null)
             {
-                for (int i = 0; i < produtos.ToList().Count; i++)
+                for (int i = 0; i < produtos.Count; i++)
                 {
                     int qtde = produtos.ToList().ElementAt(i)._Quantidade;
                     decimal preco = produtos.ToList().ElementAt(i)._Preco;

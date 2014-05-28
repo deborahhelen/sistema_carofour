@@ -74,29 +74,38 @@ namespace Negocio.DAO
 
         public IList<Model.Categoria> SelectAll()
         {
-            SqlCommand command = new SqlCommand();
-            command.CommandType = System.Data.CommandType.Text;
-            command.CommandText = "select * from categoria";            
+            IList<Model.Categoria> categorias = new List<Model.Categoria>();
 
-            SqlDataReader dr = DAO.ConexaoBanco.Select(command);
-            IList<Model.Categoria> categorias = new List<Model.Categoria>();            
-
-            if (dr.HasRows)
+            try
             {
-                while (dr.Read())
+                SqlCommand command = new SqlCommand();
+                command.CommandType = System.Data.CommandType.Text;
+                command.CommandText = "select * from categoria";
+
+                SqlDataReader dr = DAO.ConexaoBanco.Select(command);
+                
+
+                if (dr.HasRows)
                 {
-                    Model.Categoria categoria = new Model.Categoria();
-                    categoria._CategoriaId = (int)dr["categoriaId"];
-                    categoria._Nome = (string)dr["nome"];
-                    categoria._UrlImagem = (string)(dr["urlImagem"]);
-                    categorias.Add(categoria);
+                    while (dr.Read())
+                    {
+                        Model.Categoria categoria = new Model.Categoria();
+                        categoria._CategoriaId = (int)dr["categoriaId"];
+                        categoria._Nome = (string)dr["nome"];
+                        categoria._UrlImagem = (string)(dr["urlImagem"]);
+                        categorias.Add(categoria);
+                    }
                 }
-            }
-            else
-            {
-                categorias = null;
-            }
+                else
+                {
+                    categorias = null;
+                }
 
+            }
+            catch
+            {
+                return null;
+            }
             return categorias;
         }        
     }

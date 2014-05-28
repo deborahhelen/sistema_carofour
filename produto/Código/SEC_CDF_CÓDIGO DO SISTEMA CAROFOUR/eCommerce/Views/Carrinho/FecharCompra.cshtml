@@ -58,7 +58,7 @@
                 <tr>
                     <td class="celulaFecharCompra">Telefone *</td>
                     <td>
-                        <input type="text" id="_Telefone" name="_Telefone" onkeyup="return formataTelefone(this,event);" maxlength="14" />
+                        <input type="text" id="_Telefone" name="_Telefone" maxlength="14" />
                     </td>
                 </tr>                
                 <tr>
@@ -77,7 +77,7 @@
             Selecione a forma de pagamento:
             <br />
             <br />
-            <input type="radio" name="formaPagamento" value="boleto">Boleto bancário    <br />      
+            <input type="radio" name="formaPagamento" value="boleto" >Boleto bancário    <br />      
       
              <input type="radio" name="formaPagamento" value="credito">Cartão de crédito       
             <br />
@@ -85,11 +85,11 @@
         </div>
 
         <div id="divMensagem" class="divMensagemAgradecimento">
-            As compras devem ser entregue com no prazo máximo de 8 horas a partir da efetivação do pagamento.
+          <strong> Total da compra: </strong>@ViewBag.TotalCompra
             <br />
-            É um compromisso do Carofour entregar seus produtos de forma rápida e eficiente.
+            <strong>Valor do frete: </strong>10,00
             <br />
-            Parabéns pela compra!
+            <strong>Valor total a pagar:</strong> @ViewBag.TotalPagar
         </div>
     }
 }

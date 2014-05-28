@@ -12,32 +12,53 @@ namespace Negocio.DAO
     {
         public static SqlConnection Connect()
         {
-            string connectionString = "Data Source=JUNINHO-PC;" +
+            //String de conexão ao banco de dados
+            //string connectionString = "Data Source=MOANE-PC\\SQLEXPRESS;" +
+            //                          "Initial Catalog=Carofour;" +
+            //                          "User=sa;" +
+            //                          "Password=1q2w3e";
+
+            string connectionString = "Data Source=CN-PC\\SQLSERVEREXPRESS;" +
                                       "Initial Catalog=Carofour;" +
                                       "User=sa;" +
-                                      "Password=juninho007";
-            
+                                      "Password=1q2w3e";
+
             SqlConnection conn = new SqlConnection(connectionString);
             conn.Open();
 
             return conn;
         }
 
+      
         public static void CRUD(SqlCommand command)
         {
-            SqlConnection conn = Connect();
-            command.Connection = conn;
-            command.ExecuteNonQuery();
-            conn.Close();
+            try
+            {
+                SqlConnection conn = Connect();
+                command.Connection = conn;
+                command.ExecuteNonQuery();
+                conn.Close();
+            }
+            catch
+            {
+            }
+            
         }
 
         public static SqlDataReader Select(SqlCommand command)
         {
-            SqlConnection conn = Connect();
-            command.Connection = conn;
-            SqlDataReader dr = command.ExecuteReader(CommandBehavior.CloseConnection);
-            
-            return dr;
+            try
+            {
+                SqlConnection conn = Connect();
+                command.Connection = conn;
+                SqlDataReader dr = command.ExecuteReader(CommandBehavior.CloseConnection);
+
+                return dr;
+            }
+            catch
+            {
+                return null;
+            }
         }
     }
 }

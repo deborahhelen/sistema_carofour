@@ -40,6 +40,7 @@ namespace Negocio.DAO
             DAO.ConexaoBanco.CRUD(command);
         }
 
+        //Excluir um produto passado por parametro
         public void Delete(Model.Produto produto)
         {
             SqlCommand command = new SqlCommand();
@@ -51,37 +52,43 @@ namespace Negocio.DAO
             DAO.ConexaoBanco.CRUD(command);
         }
 
+        //Buscar um produto através do seu id 
         public Model.Produto SelectById(int produtoId)
         {
+            Model.Produto produto = new Model.Produto();
+
             SqlCommand command = new SqlCommand();
             command.CommandType = System.Data.CommandType.Text;
             command.CommandText = "select * from produto where produtoId = @produtoId";
             command.Parameters.AddWithValue("@produtoId", produtoId);
 
-            SqlDataReader dr = ConexaoBanco.Select(command);            
+            SqlDataReader dr = ConexaoBanco.Select(command);
 
-            Model.Produto produto = new Model.Produto();
-            DAO.CategoriaDAO categoria = new CategoriaDAO();
+            if (dr != null)
+            {               
+                DAO.CategoriaDAO categoria = new CategoriaDAO();
 
-            if (dr.HasRows)
-            {
-                dr.Read();
+                if (dr.HasRows)
+                {
+                    dr.Read();
 
-                produto._ProdutoId = (int)dr["produtoId"];
-                produto._Categoria = categoria.SelectById((int)dr["categoriaId"]);
-                produto._Descricao = (string)dr["descricao"];
-                produto._Nome = (string)dr["nome"];
-                produto._Preco = (decimal)dr["preco"];
-                produto._UrlImagem = (string)dr["urlImagem"];
-            }
-            else
-            {
-                produto = null;
+                    produto._ProdutoId = (int)dr["produtoId"];
+                    produto._Categoria = categoria.SelectById((int)dr["categoriaId"]);
+                    produto._Descricao = (string)dr["descricao"];
+                    produto._Nome = (string)dr["nome"];
+                    produto._Preco = (decimal)dr["preco"];
+                    produto._UrlImagem = (string)dr["urlImagem"];
+                }
+                else
+                {
+                    produto = null;
+                }
             }
 
             return produto;
         }
 
+        //Seleciona os produtos de acordo com a categoria selecionada
         public IList<Model.Produto> SelectByCategoria(int? categoriaId)
         {
             IList<Model.Produto> produtos = new List<Model.Produto>();
