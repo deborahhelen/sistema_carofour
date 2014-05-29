@@ -703,3 +703,5 @@ C:\Users\Déborah\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓD
 C:\Users\Déborah\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\obj\Debug\eCommerce.csprojResolveAssemblyReference.cache
 C:\Users\Déborah\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\obj\Debug\eCommerce.dll
 C:\Users\Déborah\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\obj\Debug\eCommerce.pdb
+C:\Users\Moane\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\Negocio.dll
+C:\Users\Moane\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\eCommerce\bin\Negocio.pdb

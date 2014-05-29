@@ -527,8 +527,8 @@ tr.pager td
 
 .imgItensCarrinho
 {
-    width: 55px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
 }
 
 .divTituloCategoria
@@ -536,6 +536,10 @@ tr.pager td
     color: gray;
 }
 
+.divLargura
+{
+    width:30px;
+}
 .divOpcoes
 {
     padding: 20px 40px 30px 40px;

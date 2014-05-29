@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.RegularExpressions;
 using System.Web;
 using System.Web.Mvc;
 
@@ -16,7 +17,7 @@ namespace eCommerce.Controllers
 
             if (Session["produtos"] != null)
             {
-                produtos = ((IList<Negocio.Model.Produto>)Session["produtos"]).ToList();               
+                produtos = ((IList<Negocio.Model.Produto>)Session["produtos"]).ToList();
             }
             else
             {
@@ -58,7 +59,7 @@ namespace eCommerce.Controllers
                 for (int i = 0; i < _Quantidade.Count; i++)
                 {
                     ((IList<Negocio.Model.ItemPedido>)Session["itensPedido"]).ElementAt(i)._Quantidade = _Quantidade[i];
-                }                                
+                }
             }
             else
             {
@@ -115,54 +116,83 @@ namespace eCommerce.Controllers
             return View("Index", ((IList<Negocio.Model.Produto>)Session["produtos"]));
         }
 
+        private bool ValidarEmail(string email)
+        {
+            string pattern = @"^(?!\.)(""([^""\r\\]|\\[""\r\\])*""|"
+             + @"([-a-z0-9!#$%&'*+/=?^_`{|}~]|(?<!\.)\.)*)(?<!\.)"
+             + @"@[a-z0-9][\w\.-]*[a-z0-9]\.[a-z][a-z\.]*[a-z]$";
+
+            Regex regex = new Regex(pattern, RegexOptions.IgnoreCase);
+
+            return (regex.IsMatch(email)) ? true : false;
+        }
+        private string ValidarPreenchimentoFormulario(Negocio.Model.Cliente cliente)
+        {
+            string stRetorno = "";
+            //Validando o email digitado
+            if (!ValidarEmail(cliente._Email))
+                stRetorno += "Email inválido";
+
+            return stRetorno;
+        }
         // Salvar o Cliente Pedido e Itens do Pedido
         public ActionResult DadosPedido(Negocio.Model.Cliente cliente)
         {
-            IList<Negocio.Model.Produto> lstProdutos = new List<Negocio.Model.Produto>();
+            //Validar preechimento do formulario de cliente
+            string stRetorno = ValidarPreenchimentoFormulario(cliente);
 
-            if(Session["itensPedido"] != null)
+            if (stRetorno == "")
             {
-                //Salva Cliente
-                Negocio.DAO.ClienteDAO clienteDAO = new Negocio.DAO.ClienteDAO();
-                clienteDAO.Insert(cliente);
+                IList<Negocio.Model.Produto> lstProdutos = new List<Negocio.Model.Produto>();
 
-                //Salva Pedido
-                Negocio.DAO.PedidoDAO pedidoDAO = new Negocio.DAO.PedidoDAO();
-                Negocio.Model.Pedido pedido = new Negocio.Model.Pedido();
-                pedido._Cliente = clienteDAO.SelectLastCliente();
-                pedido._Numero = pedido._Cliente._ClienteId + DateTime.Now.Day + DateTime.Now.Month + DateTime.Now.Year;
-                pedidoDAO.Insert(pedido);
-                pedido._PedidoId = pedidoDAO.SelectLastPedido()._PedidoId;
-
-                //Salva Itens do Pedido
-                Negocio.DAO.ItemPedidoDAO itemPedidoDAO = new Negocio.DAO.ItemPedidoDAO();
-                Negocio.DAO.ProdutoDAO produtoDAO = new Negocio.DAO.ProdutoDAO();                
-                Negocio.Model.Produto prod = new Negocio.Model.Produto();
-
-                foreach(Negocio.Model.ItemPedido itemPedido in (List<Negocio.Model.ItemPedido>)Session["itensPedido"])
+                if (Session["itensPedido"] != null)
                 {
-                    itemPedido._Pedido = pedido;                
-                    itemPedidoDAO.Insert(itemPedido);
-                
-                    prod = produtoDAO.SelectById(itemPedido._Produto._ProdutoId);
-                    prod._Quantidade = itemPedido._Quantidade;
+                    //Salva Cliente
+                    Negocio.DAO.ClienteDAO clienteDAO = new Negocio.DAO.ClienteDAO();
+                    clienteDAO.Insert(cliente);
 
-                    lstProdutos.Add(prod);
+                    //Salva Pedido
+                    Negocio.DAO.PedidoDAO pedidoDAO = new Negocio.DAO.PedidoDAO();
+                    Negocio.Model.Pedido pedido = new Negocio.Model.Pedido();
+                    pedido._Cliente = clienteDAO.SelectLastCliente();
+                    pedido._Numero = pedido._Cliente._ClienteId + DateTime.Now.Day + DateTime.Now.Month + DateTime.Now.Year;
+                    pedidoDAO.Insert(pedido);
+                    pedido._PedidoId = pedidoDAO.SelectLastPedido()._PedidoId;
+
+                    //Salva Itens do Pedido
+                    Negocio.DAO.ItemPedidoDAO itemPedidoDAO = new Negocio.DAO.ItemPedidoDAO();
+                    Negocio.DAO.ProdutoDAO produtoDAO = new Negocio.DAO.ProdutoDAO();
+                    Negocio.Model.Produto prod = new Negocio.Model.Produto();
+
+                    foreach (Negocio.Model.ItemPedido itemPedido in (List<Negocio.Model.ItemPedido>)Session["itensPedido"])
+                    {
+                        itemPedido._Pedido = pedido;
+                        itemPedidoDAO.Insert(itemPedido);
+
+                        prod = produtoDAO.SelectById(itemPedido._Produto._ProdutoId);
+                        prod._Quantidade = itemPedido._Quantidade;
+
+                        lstProdutos.Add(prod);
+                    }
+
+                    // Exibe as informações do Pedido na tela
+                    ViewBag.NumPedido = pedido._Numero;
+                    ViewBag.NomeCompleto = cliente._NomeCompleto;
+                    ViewBag.DataNascimento = cliente._DataNascimento;
+                    ViewBag.Endereco = cliente._Endereco;
+                    ViewBag.Telefone = cliente._Telefone;
+                    ViewBag.Email = cliente._Email;
+                    ViewBag.ValorTotal = Convert.ToDouble(CalculaSubTotal((IList<Negocio.Model.Produto>)Session["produtos"])).ToString("C");
+
+                    Session.Clear();
                 }
 
-                // Exibe as informações do Pedido na tela
-                ViewBag.NumPedido = pedido._Numero;
-                ViewBag.NomeCompleto = cliente._NomeCompleto;
-                ViewBag.DataNascimento = cliente._DataNascimento;
-                ViewBag.Endereco = cliente._Endereco;
-                ViewBag.Telefone = cliente._Telefone;
-                ViewBag.Email = cliente._Email;              
-                ViewBag.ValorTotal = Convert.ToDouble(CalculaSubTotal((IList<Negocio.Model.Produto>)Session["produtos"])).ToString("C");
-
-                Session.Clear();
+                return View(lstProdutos);
             }
-
-            return View(lstProdutos);
+            else
+            {
+                return View();
+            }
         }
 
         // Calcular o o Subtotal

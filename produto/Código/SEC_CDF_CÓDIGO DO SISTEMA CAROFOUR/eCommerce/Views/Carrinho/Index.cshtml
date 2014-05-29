@@ -28,8 +28,8 @@
                     </a>
                 </div>
 
-                <div class="float-left">                    
-                    <input type="submit" id="btnFecharCompra" name="btnFecharCompra" value="Fechar Compras" />                    
+                <div class="float-left" >                    
+                    <input type="submit" id="btnFecharCompra" name="btnFecharCompra" value="Fechar Compras"/>                    
                 </div>
             </div>      
 
@@ -53,7 +53,7 @@
                                 <td class="centerContet"><img src="@Html.DisplayFor(item => model._UrlImagem)" class="imgItensCarrinho" /></td>
                                 <td>@Html.DisplayFor(item => model._Nome) / @Html.DisplayFor(item => model._Descricao)</td>
                                 <td class="centerContet">
-                                    <input type="text" id="_Quantidade" name="_Quantidade" style="width:30px;" value="@Html.DisplayFor(item => model._Quantidade)" />
+                                    <input type="text" id="_Quantidade" name="_Quantidade" class="divLargura" value="@Html.DisplayFor(item => model._Quantidade)" />
                                 </td>
                                 <td class="centerContet">@Html.DisplayFor(item => model._Preco)</td>
                                 <td>@Html.ActionLink("Atualizar", "AtualizarQuantidade", new { produtoId = model._ProdutoId, _Quantidade = "value" }, new { @class = "lnk", @id = "lnk" }) / @Html.ActionLink("Remover", "RemoverItem", new { produtoId = model._ProdutoId }, new { @id = "remover" })</td>

@@ -6,36 +6,36 @@
 
 @section featured {
     <div class="divTituloPedido">
-            <span class="divFinalPedido">Pedido Realizado com Sucesso.</span>
+        <span class="divFinalPedido">Pedido Realizado com Sucesso.</span>
 
-            <br />
-        
-        <span class="divFinalPedido">Numero Pedido:</span> <span class="divNumPedido"> <span>@ViewBag.NumPedido</span></span>
-                    
+        <br />
+
+        <span class="divFinalPedido">Numero Pedido:</span> <span class="divNumPedido"><span>@ViewBag.NumPedido</span></span>
+
     </div>
 
-        <div ID="divItensPedidos" class="divDadosPedido" >
-        
-            <div class="headerProdNome">Produto</div>
-            <div class="headerProdDescricao">Descrição</div>
-            <div class="headerProdQtde">Qtde</div>
-             
+    <div id="divItensPedidos" class="divDadosPedido">
 
-            @foreach (var model in Model )
-	        {
-		        <div class="rowProdNome">@Html.DisplayFor(item => model._Nome)</div>
-                <div class="rowProdDescricao">@Html.DisplayFor(item => model._Descricao)</div>
-                <div class="rowProdQtde">@Html.DisplayFor(item => model._Quantidade)</div>
+        <div class="headerProdNome">Produto</div>
+        <div class="headerProdDescricao">Descrição</div>
+        <div class="headerProdQtde">Qtde</div>
+
+
+        @foreach (var model in Model)
+        {
+            <div class="rowProdNome">@Html.DisplayFor(item => model._Nome)</div>
+            <div class="rowProdDescricao">@Html.DisplayFor(item => model._Descricao)</div>
+            <div class="rowProdQtde">@Html.DisplayFor(item => model._Quantidade)</div>
                
-	        }
-            
-        </div>
+        }
 
-        <div id="divDadosCliente" class="divDadosPedido">
-            <div class="headerClienteNome"> &nbsp; Cliente: &nbsp; &nbsp; <span class="">@ViewBag.NomeCompleto</span> </div>                         
-            <div class="headerClienteEndereco"> &nbsp; Endereço: &nbsp;  <span class="">@ViewBag.Endereco</span> </div>                         
-            <div class="headerClienteTelefone"> &nbsp; Telefone: &nbsp;  <span class="">@ViewBag.Telefone</span> </div>                        
-            <div class="headerClienteEmail"> &nbsp; E-mail: &nbsp; &nbsp; &nbsp;  <span class="">@ViewBag.Email</span> </div>                                    
-            <div class="headerClienteValorTotal"> &nbsp; Valor Total:: &nbsp; &nbsp; &nbsp;  <span class="">@ViewBag.ValorTotal</span> </div>                                    
-        </div>
+    </div>
+
+    <div id="divDadosCliente" class="divDadosPedido">
+        <div class="headerClienteNome">Cliente: <span class="">@ViewBag.NomeCompleto</span> </div>
+        <div class="headerClienteEndereco">Endereço: <span class="">@ViewBag.Endereco</span> </div>
+        <div class="headerClienteTelefone">Telefone: <span class="">@ViewBag.Telefone</span> </div>
+        <div class="headerClienteEmail">E-mail:  <span class="">@ViewBag.Email</span> </div>
+        <div class="headerClienteValorTotal">Valor Total:  <span class="">@ViewBag.ValorTotal</span> </div>
+    </div>
 }

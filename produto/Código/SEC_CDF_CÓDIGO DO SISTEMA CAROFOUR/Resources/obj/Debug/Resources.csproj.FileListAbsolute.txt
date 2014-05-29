@@ -3,3 +3,8 @@ C:\Users\Juninho\Documents\Visual Studio 2012\Projects\SEC_CDF_CÓDIGO DO SISTEM
 C:\Users\Juninho\Documents\Visual Studio 2012\Projects\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\Resources\obj\Debug\Resources.csprojResolveAssemblyReference.cache
 C:\Users\Juninho\Documents\Visual Studio 2012\Projects\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\Resources\obj\Debug\Resources.dll
 C:\Users\Juninho\Documents\Visual Studio 2012\Projects\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\Resources\obj\Debug\Resources.pdb
+C:\Users\Moane\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\Resources\bin\Debug\Resources.dll
+C:\Users\Moane\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\Resources\bin\Debug\Resources.pdb
+C:\Users\Moane\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\Resources\obj\Debug\Resources.csprojResolveAssemblyReference.cache
+C:\Users\Moane\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\Resources\obj\Debug\Resources.dll
+C:\Users\Moane\Documents\GitHub\sistema_carofour\produto\Código\SEC_CDF_CÓDIGO DO SISTEMA CAROFOUR\Resources\obj\Debug\Resources.pdb

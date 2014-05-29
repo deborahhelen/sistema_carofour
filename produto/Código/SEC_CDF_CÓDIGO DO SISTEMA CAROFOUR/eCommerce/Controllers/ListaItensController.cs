@@ -11,6 +11,7 @@ namespace eCommerce.Controllers
     public class ListaItensController : Controller
     {
 
+        //Buscar os produtos de uma categoria passada por parametro
         public ActionResult Index(int? CodCategoria)
         {
             IList<Negocio.Model.Produto> lstProdutosCategoria = new List<Negocio.Model.Produto>();
