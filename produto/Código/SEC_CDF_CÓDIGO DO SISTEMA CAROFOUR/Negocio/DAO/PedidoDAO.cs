@@ -13,10 +13,11 @@ namespace Negocio.DAO
         {
             SqlCommand command = new SqlCommand();
             command.CommandType = System.Data.CommandType.Text;
-            command.CommandText = "insert into pedido (numero, clienteId) values (@numero, @clienteId)";
+            command.CommandText = "insert into pedido (numero, clienteId, formaPagamento) values (@numero, @clienteId,@formaPagamento)";
 
             command.Parameters.AddWithValue("@numero", pedido._Numero);
             command.Parameters.AddWithValue("@clienteId", pedido._Cliente._ClienteId);
+            command.Parameters.AddWithValue("@formaPagamento", pedido._FormaPagamento);
 
             DAO.ConexaoBanco.CRUD(command);
         }

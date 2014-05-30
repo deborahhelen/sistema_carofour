@@ -16,6 +16,7 @@ namespace Negocio.Model
         private string sexo;
         private string endereco;
         private string telefone;
+        
 
         public int _ClienteId
         {
@@ -64,5 +65,6 @@ namespace Negocio.Model
             get { return telefone; }
             set { telefone = value; }
         }
+        
     }
 }

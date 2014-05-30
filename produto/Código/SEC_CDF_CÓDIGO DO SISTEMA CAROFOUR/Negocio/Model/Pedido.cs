@@ -11,6 +11,7 @@ namespace Negocio.Model
         private int pedidoId;
         private int numero;
         private Cliente cliente;
+        private string formaPagamento { get; set; }
 
         public Pedido()
         {
@@ -33,6 +34,11 @@ namespace Negocio.Model
         {
             get { return cliente; }
             set { cliente = value; }
+        }
+        public string _FormaPagamento
+        {
+            get { return formaPagamento; }
+            set { formaPagamento = value; }
         }
     }
 }

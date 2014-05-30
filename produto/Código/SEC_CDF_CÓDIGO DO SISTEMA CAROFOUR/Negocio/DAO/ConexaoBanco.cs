@@ -46,6 +46,7 @@ namespace Negocio.DAO
             }
             catch
             {
+                throw new Exception("Erro ao salvar cliente");
             }
             
         }

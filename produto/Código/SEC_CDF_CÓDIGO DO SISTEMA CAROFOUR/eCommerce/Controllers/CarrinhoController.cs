@@ -25,7 +25,7 @@ namespace eCommerce.Controllers
             }
 
             ViewBag.SubTotal = CalculaSubTotal((IList<Negocio.Model.Produto>)Session["produtos"]).ToString("C");
-
+           
             return View(produtos);
         }
 
@@ -101,98 +101,86 @@ namespace eCommerce.Controllers
         // Remover o item do Carrinho
         public ViewResult RemoverItem(int produtoId)
         {
-            for (int i = 0; i < ((IList<Negocio.Model.Produto>)Session["produtos"]).ToList().Count; i++)
+            IList<Negocio.Model.Produto> lstProdutos = (IList<Negocio.Model.Produto>)Session["produtos"];
+
+            for (int i = 0; i < lstProdutos.Count; i++)
             {
-                if (((IList<Negocio.Model.Produto>)Session["produtos"]).ToList()[i]._ProdutoId == produtoId)
+                if (lstProdutos[i]._ProdutoId == produtoId)
                 {
-                    ((IList<Negocio.Model.Produto>)Session["produtos"]).RemoveAt(i);
+                    lstProdutos.RemoveAt(i);
 
                     break;
                 }
             }
 
+            Session["produtos"] = lstProdutos;
+
             ViewBag.SubTotal = CalculaSubTotal((IList<Negocio.Model.Produto>)Session["produtos"]).ToString("C");
 
             return View("Index", ((IList<Negocio.Model.Produto>)Session["produtos"]));
         }
-
-        private bool ValidarEmail(string email)
-        {
-            string pattern = @"^(?!\.)(""([^""\r\\]|\\[""\r\\])*""|"
-             + @"([-a-z0-9!#$%&'*+/=?^_`{|}~]|(?<!\.)\.)*)(?<!\.)"
-             + @"@[a-z0-9][\w\.-]*[a-z0-9]\.[a-z][a-z\.]*[a-z]$";
-
-            Regex regex = new Regex(pattern, RegexOptions.IgnoreCase);
-
-            return (regex.IsMatch(email)) ? true : false;
-        }
-        private string ValidarPreenchimentoFormulario(Negocio.Model.Cliente cliente)
-        {
-            string stRetorno = "";
-            //Validando o email digitado
-            if (!ValidarEmail(cliente._Email))
-                stRetorno += "Email inválido";
-
-            return stRetorno;
-        }
+      
         // Salvar o Cliente Pedido e Itens do Pedido
-        public ActionResult DadosPedido(Negocio.Model.Cliente cliente)
+        public ViewResult DadosPedido(Negocio.Model.Cliente cliente, Negocio.Model.Pedido _pedido)
         {
-            //Validar preechimento do formulario de cliente
-            string stRetorno = ValidarPreenchimentoFormulario(cliente);
+            IList<Negocio.Model.Produto> lstProdutos = new List<Negocio.Model.Produto>();
+          
+                try
+                {                   
 
-            if (stRetorno == "")
-            {
-                IList<Negocio.Model.Produto> lstProdutos = new List<Negocio.Model.Produto>();
-
-                if (Session["itensPedido"] != null)
-                {
-                    //Salva Cliente
-                    Negocio.DAO.ClienteDAO clienteDAO = new Negocio.DAO.ClienteDAO();
-                    clienteDAO.Insert(cliente);
-
-                    //Salva Pedido
-                    Negocio.DAO.PedidoDAO pedidoDAO = new Negocio.DAO.PedidoDAO();
-                    Negocio.Model.Pedido pedido = new Negocio.Model.Pedido();
-                    pedido._Cliente = clienteDAO.SelectLastCliente();
-                    pedido._Numero = pedido._Cliente._ClienteId + DateTime.Now.Day + DateTime.Now.Month + DateTime.Now.Year;
-                    pedidoDAO.Insert(pedido);
-                    pedido._PedidoId = pedidoDAO.SelectLastPedido()._PedidoId;
-
-                    //Salva Itens do Pedido
-                    Negocio.DAO.ItemPedidoDAO itemPedidoDAO = new Negocio.DAO.ItemPedidoDAO();
-                    Negocio.DAO.ProdutoDAO produtoDAO = new Negocio.DAO.ProdutoDAO();
-                    Negocio.Model.Produto prod = new Negocio.Model.Produto();
-
-                    foreach (Negocio.Model.ItemPedido itemPedido in (List<Negocio.Model.ItemPedido>)Session["itensPedido"])
+                    if (Session["itensPedido"] != null)
                     {
-                        itemPedido._Pedido = pedido;
-                        itemPedidoDAO.Insert(itemPedido);
+                        //Salva Cliente
+                        Negocio.DAO.ClienteDAO clienteDAO = new Negocio.DAO.ClienteDAO();
+                        clienteDAO.Insert(cliente);
 
-                        prod = produtoDAO.SelectById(itemPedido._Produto._ProdutoId);
-                        prod._Quantidade = itemPedido._Quantidade;
+                        //Salva Pedido
+                        Negocio.DAO.PedidoDAO pedidoDAO = new Negocio.DAO.PedidoDAO();
+                        Negocio.Model.Pedido pedido = new Negocio.Model.Pedido();
+                        pedido._Cliente = clienteDAO.SelectLastCliente();
+                        pedido._Numero = pedido._Cliente._ClienteId + DateTime.Now.Day + DateTime.Now.Month + DateTime.Now.Year;
+                        pedido._FormaPagamento = _pedido._FormaPagamento;
+                        pedidoDAO.Insert(pedido);
+                        pedido._PedidoId = pedidoDAO.SelectLastPedido()._PedidoId;
 
-                        lstProdutos.Add(prod);
+                        //Salva Itens do Pedido
+                        Negocio.DAO.ItemPedidoDAO itemPedidoDAO = new Negocio.DAO.ItemPedidoDAO();
+                        Negocio.DAO.ProdutoDAO produtoDAO = new Negocio.DAO.ProdutoDAO();
+                        Negocio.Model.Produto prod = new Negocio.Model.Produto();
+
+                        List<Negocio.Model.ItemPedido> lstItensPedido = (List<Negocio.Model.ItemPedido>)Session["itensPedido"];
+
+                        foreach (Negocio.Model.ItemPedido itemPedido in lstItensPedido)
+                        {
+                            itemPedido._Pedido = pedido;
+                            itemPedidoDAO.Insert(itemPedido);
+
+                            prod = produtoDAO.SelectById(itemPedido._Produto._ProdutoId);
+                            prod._Quantidade = itemPedido._Quantidade;
+
+                            lstProdutos.Add(prod);
+                        }
+
+                        // Exibe as informações do Pedido na tela
+                        ViewBag.NumPedido = pedido._Numero;
+                        ViewBag.NomeCompleto = cliente._NomeCompleto;
+                        ViewBag.DataNascimento = cliente._DataNascimento;
+                        ViewBag.Endereco = cliente._Endereco;
+                        ViewBag.Telefone = cliente._Telefone;
+                        ViewBag.Email = cliente._Email;
+                        ViewBag.FormaPagamento = pedido._FormaPagamento;
+                        ViewBag.ValorTotal = Convert.ToDouble(CalculaSubTotal((IList<Negocio.Model.Produto>)Session["produtos"])).ToString("C");
+
+                        Session.Clear();
                     }
 
-                    // Exibe as informações do Pedido na tela
-                    ViewBag.NumPedido = pedido._Numero;
-                    ViewBag.NomeCompleto = cliente._NomeCompleto;
-                    ViewBag.DataNascimento = cliente._DataNascimento;
-                    ViewBag.Endereco = cliente._Endereco;
-                    ViewBag.Telefone = cliente._Telefone;
-                    ViewBag.Email = cliente._Email;
-                    ViewBag.ValorTotal = Convert.ToDouble(CalculaSubTotal((IList<Negocio.Model.Produto>)Session["produtos"])).ToString("C");
-
-                    Session.Clear();
+                    
                 }
-
+                catch
+                {
+                    ViewBag.MensagemErro = "Não foi possível concluir a compra.";
+                }
                 return View(lstProdutos);
-            }
-            else
-            {
-                return View();
-            }
         }
 
         // Calcular o o Subtotal

@@ -47,7 +47,7 @@
             </div>
 
             <div class="float-left">
-                <a href="@Url.Action("FecharCompra", "Carrinho")">
+                <a href="@Url.Action("Index", "Carrinho")">
                     <input type="button" id="btnFecharCompra" name="btnFecharCompra" value="Fechar Compras" />
                 </a>
             </div>
@@ -59,21 +59,20 @@
         <br />
 
         <div>
-            <div style="">
-
-                <div class="headerListaItens listaProdutosCheckBox"> &nbsp; <input type="checkbox" id="marcarTodos" class="selectAll"  /></div>
-                <div class="headerListaItens listaProdutosNome"> &nbsp;Nome / Descrição</div>
-                <div class="headerListaItens listaProdutosPreco"> &nbsp; Preço R$</div>
-                <div class="headerListaItens listaProdutosLink"> &nbsp; Apagar</div>
+            <div >
+                <div class="headerListaItens listaProdutosCheckBox">  <input type="checkbox" id="marcarTodos" class="selectAll margem"  /></div>
+                <div class="headerListaItens listaProdutosNome"> Nome / Descrição</div>
+                <div class="headerListaItens listaProdutosPreco"> Preço R$</div>
+                <div class="headerListaItens listaProdutosLink">  Apagar</div>               
                
                     @if(Model != null)
                     {
                         foreach (var model in Model)
                         {                     
-                            <div class="rowProdutosCheckBox"> &nbsp; <input type="checkbox" id="produto" name="produto" value="@Html.DisplayFor(item => model._ProdutoId)" /></div>
-                            <div class="rowProdutosNome"> &nbsp; @Html.DisplayFor(item => model._Nome) / @Html.DisplayFor(item => model._Descricao)</div>
-                            <div class="rowProdutosPreco"> &nbsp; @Html.DisplayFor(item => model._Preco)</div>
-                            <div class="rowProdutosLink"> &nbsp; @Html.ActionLink("Comprar","AddProdutoCarrinho", new { produtoId = model._ProdutoId })</div>
+                            <div class="rowProdutosCheckBox"> <input type="checkbox" class="margem" id="produto" name="produto" value="@Html.DisplayFor(item => model._ProdutoId)" /></div>
+                            <div class="rowProdutosNome"> @Html.DisplayFor(item => model._Nome) / @Html.DisplayFor(item => model._Descricao)</div>
+                            <div class="rowProdutosPreco"> @Html.DisplayFor(item => model._Preco)</div>
+                            <div class="rowProdutosLink"> @Html.ActionLink("Comprar","AddProdutoCarrinho", new { produtoId = model._ProdutoId })</div>
                                                          
                         }                  
                     }
